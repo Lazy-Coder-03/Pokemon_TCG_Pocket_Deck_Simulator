@@ -537,59 +537,70 @@ def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=
             cards_drawn_at_end.extend(beast_draw)
             if log_details:
                 log.append(f"Legendary beast end-turn draw: {beast_draw[0]['name']} (available next turn)")
+
+    # --- NEW BRICKING LOGIC START ---
     
-    # Check for bricking
     all_pokemon_in_play = active_pokemon + bench
-    has_main_attacker = any(is_main_attacker(p, precomputed_attackers) for p in all_pokemon_in_play)
+    developed_attackers = [p for p in all_pokemon_in_play if is_main_attacker(p, precomputed_attackers)]
     
-    # Check if key cards were accessible
+    # Get total count of each main attacker in the deck
+    attacker_names = set(c['name'] for c in full_deck if is_main_attacker(c, precomputed_attackers))
+    total_main_attackers_in_deck = len(attacker_names)
+
+    # Check if a game state is NOT a brick
+    is_not_brick = False
+    
+    required_in_play = 3 if total_main_attackers_in_deck > 3 else max(2, total_main_attackers_in_deck)
+    is_not_brick = len(developed_attackers) >= required_in_play
+
+    # Check for the "decking out" condition as a final override
+    not_brick_deck_small = len(deck) < 5
+
+    # Determine if it's a brick based on the new logic
+    is_brick = not is_not_brick and not not_brick_deck_small
+    
+    # --- NEW BRICKING LOGIC END ---
+    
+    # Existing key card stuck and no attacker logic (for logging purposes only)
     key_cards = ['professor\'s research']
     key_basics = [c['name'] for c in full_deck if is_basic(c) and is_important(c)]
-    
-    from collections import Counter
     deck_counts = Counter(card['name'] for card in full_deck if card['name'] in key_cards or card['name'] in key_basics)
     seen_counts = Counter(name for name in cards_seen if name in deck_counts)
     key_cards_stuck = [name for name, total in deck_counts.items() if seen_counts.get(name, 0) == 0]
-
-    # Diagnostics: show position of undrawn key cards in the remaining deck
-    remaining_deck = [c['name'] for c in deck]
-    key_positions = {}
-    for key in key_cards + key_basics:
-        if key in remaining_deck:
-            key_positions[key] = remaining_deck.index(key)
-
-    # New NOT a BRICK condition: deck size < 5 by end of 5 turns
-    not_brick_deck_small = len(deck) < 5
-
-    brick_no_attacker = not has_main_attacker
+    
+    brick_no_attacker = len(developed_attackers) == 0
     brick_key_stuck = len(key_cards_stuck) > 0
-
-    # If deck size < 5, override brick status
-    is_brick = (brick_no_attacker or brick_key_stuck) and not not_brick_deck_small
 
     if log_details:
         log.append(f"\n--- FINAL STATE ---")
         log.append(f"Active: {[c['name'] for c in active_pokemon]}")
         log.append(f"Bench: {[c['name'] for c in bench]}")
         log.append(f"Hand: {[c['name'] for c in hand]}")
-        log.append(f"Main attackers in play: {[c['name'] for c in all_pokemon_in_play if is_main_attacker(c, precomputed_attackers)]}")
-        log.append(f"Cards not seen: {key_cards_stuck}")
+        log.append(f"Main attackers in play: {[c['name'] for c in developed_attackers]}")
+        log.append(f"Total main attackers in deck: {total_main_attackers_in_deck}")
+        
         log.append(f"RESULT: {'BRICK' if is_brick else 'OK'}")
-        if brick_no_attacker and not not_brick_deck_small:
-            log.append("  - No main attacker")
-        if brick_key_stuck and not not_brick_deck_small:
-            log.append(f"  - Key cards stuck: {key_cards_stuck}")
-        if not_brick_deck_small:
-            log.append(f"Deck size < 5, NOT a BRICK")
-        log.append(f"Remaining deck: {remaining_deck}")
-        log.append(f"Key card positions: {key_positions}")
-        for key, pos in key_positions.items():
-            if pos >= len(remaining_deck) - 5:
-                log.append(f"Key card '{key}' is in the bottom 5 cards (position {pos})")
-
+        
+        if is_brick:
+            log.append("  - Bricking condition met:")
+            if not is_not_brick:
+                if total_main_attackers_in_deck > 3:
+                    log.append(f"    - Less than 3 attackers ({len(developed_attackers)}) developed when deck has >3 attackers.")
+                else:
+                    log.append(f"    - Not all attackers ({len(developed_attackers)} of {total_main_attackers_in_deck}) developed.")
+            if not not_brick_deck_small and not is_brick:
+                 log.append("  - Key cards stuck or no attacker (but not a brick by new rules)")
+                 if brick_no_attacker: log.append("    - No main attacker")
+                 if brick_key_stuck: log.append(f"    - Key cards stuck: {key_cards_stuck}")
+        
+        if not_brick_deck_small and not is_brick:
+            log.append(f"  - Deck size < 5, NOT a BRICK")
+        
+        log.append(f"Remaining deck: {[c['name'] for c in deck]}")
+        
     return is_brick, brick_no_attacker, brick_key_stuck, log
 
-def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1000, show_examples=5, maxturns=5):
+def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1000, show_examples=5, maxturns=7):
     """Run multiple simulations and show detailed examples of bricked games."""
     total_bricks = 0
     attacker_bricks = 0
@@ -603,8 +614,15 @@ def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1
         # If it's a brick and we want to show examples, run again with logging
         if is_brick_check and examples_shown < show_examples:
             is_brick, brick_attacker, brick_key, log = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=True, max_turns=maxturns)
+            if is_brick:
+                print(f"\n{'='*50}")
+                print(f"BRICKED GAME EXAMPLE #{examples_shown + 1}")
+                print('='*50)
+                for line in log:
+                    print(line)
+                examples_shown += 1
         else:
-            is_brick, brick_attacker, brick_key, log = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=False, max_turns=maxturns)
+            is_brick, brick_attacker, brick_key, _ = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=False, max_turns=maxturns)
 
         if is_brick:
             total_bricks += 1
@@ -612,14 +630,6 @@ def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1
                 attacker_bricks += 1
             if brick_key:
                 key_card_bricks += 1
-            
-            if examples_shown < show_examples and log:  # Only show if we have log data
-                print(f"\n{'='*50}")
-                print(f"BRICKED GAME EXAMPLE #{examples_shown + 1}")
-                print('='*50)
-                for line in log:
-                    print(line)
-                examples_shown += 1
     
     return total_bricks, attacker_bricks, key_card_bricks, trials
 
@@ -629,98 +639,92 @@ def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1
 
 def get_main_attackers_and_evolution_methods(full_deck):
     """
-    Correctly identifies all potential main attackers and their evolution methods.
+    Identifies all potential main attackers and their evolution methods.
+    Adds:
+      - All Stage 2 Pokémon
+      - All Stage 1 EX Pokémon
+      - All Basic EX Pokémon
+      - Standalone basics (no evolutions OR no stage2 with rare candy)
     """
     main_attackers = set()
     evolution_methods = {}
     has_rare_candy = any(is_rare_candy(c) for c in full_deck)
-    stage_order = {'basic': 0, 'stage1': 1, 'stage2': 2}
     
-    # Correctly map each evolution line to its highest stage card
-    final_evos = {}
-    
-    # First, group all cards by their basic form, ensuring only Pokémon are processed
+    # Group Pokémon by their basic ancestor
     evolution_lines = {}
-    for card in full_deck:
-        if card['type'] == 'pokemon':
-            basic_name = get_evolves_from_chain(card.get('evolves_from', '')) if card.get('evolves_from', '') else card['name']
-            if basic_name not in evolution_lines:
-                evolution_lines[basic_name] = []
-            evolution_lines[basic_name].append(card)
-
-    # Then, find the highest stage card for each line
-    for basic_name, cards in evolution_lines.items():
-        highest_stage_card = None
-        for card in cards:
-            # Safely get the stage order, defaulting to -1 for non-valid stages
-            current_stage_order = stage_order.get(card.get('stage'), -1)
-            highest_stage_order = stage_order.get(highest_stage_card.get('stage'), -1) if highest_stage_card else -1
-
-            if highest_stage_card is None or current_stage_order > highest_stage_order:
-                highest_stage_card = card
-        
-        if highest_stage_card:
-            final_evos[basic_name] = highest_stage_card
-
-    # Collect all candidates for each priority level
-    stage2_candidates = []
-    stage1_ex_candidates = []
-    basic_ex_candidates = []
+    #for eevee ex
     
-    for final_card in final_evos.values():
-        name = final_card['name']
-        if name == "eevee ex":
+    for card in full_deck:
+        if card['type'] != 'pokemon':
             continue
-        if is_stage2(final_card):
-            stage2_candidates.append(name)
-            evolution_methods[name] = 'Stage 2 (via Rare Candy)' if has_rare_candy else 'Stage 2'
-        elif is_stage1(final_card) and final_card['ex']:
-            stage1_ex_candidates.append(name)
-            evolution_methods[name] = 'Stage 1 ex'
-        elif is_basic(final_card) and final_card['ex']:
-            basic_ex_candidates.append(name)
-            evolution_methods[name] = 'Basic ex'
+        basic_name = get_evolves_from_chain(card.get('evolve_from', '')) if card.get('evolve_from', '') else card['name']
+        evolution_lines.setdefault(basic_name, []).append(card)
+
+    # Add all Stage 2, Stage 1 EX, Basic EX
+    for cards in evolution_lines.values():
+        for card in cards:
+            name = card['name']
+            if is_stage2(card):
+                evolution_methods[name] = 'Stage 2 (via Rare Candy)' if has_rare_candy else 'Stage 2'
+                main_attackers.add(name)
+            elif is_stage1(card) and card.get('ex', False):
+                evolution_methods[name] = 'Stage 1 ex'
+                main_attackers.add(name)
+            elif is_basic(card) and card.get('ex', False):
+                evolution_methods[name] = 'Basic ex'
+                main_attackers.add(name)
     
-    # Add standalone basics that are not part of an evolution line
-    standalone_basic_candidates = []
+    # Add standalone basics not part of any evolution line (no evolutions in deck)
+    # Exclude basics if any card in deck evolves from them
+    evolved_from_names = set(c.get('evolve_from','') for c in full_deck if c.get('evolve_from',''))
     for card in full_deck:
-        # Check if the card is a standalone basic that isn't a final evolution of a larger line
-        if is_basic(card) and card['name'] not in final_evos and card['type'] == 'pokemon':
-            standalone_basic_candidates.append(card['name'])
-            evolution_methods[card['name']] = 'Basic (standalone)'
-            
-    standalone_stage_1_candidates = []
-    for card in full_deck:
-        if is_stage1(card) and card['name'] in final_evos and card['type'] == 'pokemon':
-            standalone_stage_1_candidates.append(card['name'])
-            evolution_methods[card['name']] = 'Stage 1 (standalone)'
-    # Combine all candidate lists into the final set of main attackers
-    main_attackers.update(stage2_candidates)
-    main_attackers.update(stage1_ex_candidates)
-    main_attackers.update(basic_ex_candidates)
-    main_attackers.update(standalone_basic_candidates)
-    main_attackers.update(standalone_stage_1_candidates)
+        if is_basic(card):
+            basic_name = card['name']
+            # Only add if no card in deck evolves from this basic
+            if basic_name not in evolved_from_names:
+                evolution_methods[basic_name] = 'Basic (standalone)'
+                main_attackers.add(basic_name)
     
+        
+    #stage 1 evos that doesnt have any further evos 
+    for cards in evolution_lines.values():
+        for card in cards:
+            if is_stage1(card) and card["name"] not in card.get('evolve_from', []):
+                evolution_methods[card['name']] = 'Stage 1 (standalone)'
+                main_attackers.add(card['name'])
+    
+    if 'eevee ex' in main_attackers:
+        main_attackers.discard('eevee ex')
+
+    #remove any basic that have a evolution in the deck even if its stage 1
+    for card in full_deck:
+        if is_basic(card) and card["name"] in card.get('evolve_from', []):
+            evolution_methods[card['name']] = 'Basic (with evolution)'
+            main_attackers.discard(card['name'])
+
     return list(main_attackers), evolution_methods
+
+
+
+
 
 def main():
     """Main function to load data, parse deck, and run analysis."""
     deck_text = """
-2 Charmander A1 33
-1 Charizard A1 35
-1 Charizard ex A1 36
-2 Moltres ex A1 47
-1 Farfetch'd A1 198
+2 Eevee A4 134
+2 Espeon ex A4 83
+2 Sylveon ex A3b 34
+1 Sylveon A3b 33
+1 Espeon A3b 28
+2 Eevee ex A3b 56
 
 2 Professor's Research P-A 7
 1 Sabrina A1 225
-1 Leaf A1a 68
-1 Dawn A2 154
+1 Cyrus A2 150
+1 Mars A2 155
+1 Guzma A3 151
 2 Poké Ball P-A 5
-2 Rare Candy A3 144
-1 Potion P-A 1
-1 X Speed P-A 2
-1 Red Card P-A 6
+1 Eevee Bag A3b 66
 1 Giant Cape A2 147
 """
     
@@ -737,7 +741,7 @@ def main():
     card_counts = Counter(card['name'] for card in parsed_deck)
     print("Deck composition:")
     for card, count in card_counts.items():
-        print(f"  - {count} {card}")
+        print(f"   - {count} {card}")
     
     print("\nCard details:")
     unique_cards = {}
@@ -748,13 +752,13 @@ def main():
     
     for name, card in unique_cards.items():
         evolve_info = f", evolves_from={card['evolve_from']}" if card['evolve_from'] else ""
-        print(f"  - {name}: type={card['type']}, stage={card['stage']}, ex={card['ex']}{evolve_info}")
+        print(f"   - {name}: type={card['type']}, stage={card['stage']}, ex={card['ex']}{evolve_info}")
 
     # Precompute main attackers and evolution methods BEFORE the simulation
     main_attackers, evolution_methods = get_main_attackers_and_evolution_methods(parsed_deck)
     print("\nPrecomputed main attackers and evolution methods:")
     for attacker in main_attackers:
-        print(f"  - {attacker}: {evolution_methods.get(attacker, 'N/A')}")
+        print(f"   - {attacker}: {evolution_methods.get(attacker, 'N/A')}")
     
     total_bricks, attacker_bricks, key_card_bricks, trials = simulate_brick_rate_with_examples(
         parsed_deck, main_attackers, trials=10000, show_examples=1, maxturns=7
@@ -763,8 +767,9 @@ def main():
     print(f"\n--- SIMULATION RESULTS ({trials} trials) ---")
     print(f"Total brick count: {total_bricks}")
     print(f"Brick rate: {total_bricks/trials*100:.2f}%")
-    print(f"  - No main attacker bricks: {attacker_bricks}")
-    print(f"  - Key cards stuck bricks: {key_card_bricks}")
+    print(f"   - Number of main attackers in play is not optimal: {attacker_bricks} times")
+    print(f"   - Key cards stuck bricks: {key_card_bricks}")
+
 
 if __name__ == "__main__":
     main()
