@@ -568,7 +568,8 @@ def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=
     seen_counts = Counter(name for name in cards_seen if name in deck_counts)
     key_cards_stuck = [name for name, total in deck_counts.items() if seen_counts.get(name, 0) == 0]
     
-    brick_no_attacker = len(developed_attackers) == 0
+    required_in_play = 3 if total_main_attackers_in_deck > 3 else max(2, total_main_attackers_in_deck)
+    brick_no_attacker = len(developed_attackers) < required_in_play
     brick_key_stuck = len(key_cards_stuck) > 0
 
     if log_details:
@@ -674,14 +675,29 @@ def get_main_attackers_and_evolution_methods(full_deck):
                 evolution_methods[name] = 'Basic ex'
                 main_attackers.add(name)
     
+
     # Add standalone basics not part of any evolution line (no evolutions in deck)
     # Exclude basics if any card in deck evolves from them
     evolved_from_names = set(c.get('evolve_from','') for c in full_deck if c.get('evolve_from',''))
+    # Find all basics that have a stage2 in deck that ultimately evolves from them
+    basics_with_stage2_rare_candy = set()
+    if has_rare_candy:
+        for basic_card in full_deck:
+            if is_basic(basic_card):
+                basic_name = basic_card['name']
+                # Look for any stage2 in deck that ultimately evolves from this basic
+                for evo_card in full_deck:
+                    if is_stage2(evo_card):
+                        ancestor = get_evolves_from_chain(evo_card.get('evolve_from','')) if evo_card.get('evolve_from','') else evo_card['name']
+                        if ancestor == basic_name:
+                            basics_with_stage2_rare_candy.add(basic_name)
+                            break
+
     for card in full_deck:
         if is_basic(card):
             basic_name = card['name']
-            # Only add if no card in deck evolves from this basic
-            if basic_name not in evolved_from_names:
+            # Only add if no card in deck evolves from this basic and not covered by rare candy + stage2
+            if basic_name not in evolved_from_names and basic_name not in basics_with_stage2_rare_candy:
                 evolution_methods[basic_name] = 'Basic (standalone)'
                 main_attackers.add(basic_name)
     
@@ -717,7 +733,6 @@ def main():
 1 Sylveon A3b 33
 1 Espeon A3b 28
 2 Eevee ex A3b 56
-
 2 Professor's Research P-A 7
 1 Sabrina A1 225
 1 Cyrus A2 150
@@ -765,10 +780,12 @@ def main():
     )
     
     print(f"\n--- SIMULATION RESULTS ({trials} trials) ---")
-    print(f"Total brick count: {total_bricks}")
-    print(f"Brick rate: {total_bricks/trials*100:.2f}%")
-    print(f"   - Number of main attackers in play is not optimal: {attacker_bricks} times")
-    print(f"   - Key cards stuck bricks: {key_card_bricks}")
+    print(f"Total strict bricks (unplayable hands): {total_bricks} ({total_bricks/trials*100:.2f}%)")
+    print(f"Sub-optimal games due to not enough main attackers in play: {attacker_bricks} ({attacker_bricks/trials*100:.2f}%)")
+    print(f"   - Of these, caused by key cards not drawn in time: {key_card_bricks} ({key_card_bricks/attacker_bricks*100:.2f}% of sub-optimal games) and ({key_card_bricks/trials*100:.2f}% of all games)")
+    print(f"Note: Some sub-optimal situations are temporary and may resolve in later turns.")
+
+
 
 
 if __name__ == "__main__":
