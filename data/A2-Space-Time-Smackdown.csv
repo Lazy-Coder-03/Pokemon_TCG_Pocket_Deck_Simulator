@@ -1,0 +1,208 @@
+set_name,set_code,set_release_date,set_total_cards,pack_name,card_name,card_number,card_rarity,card_type,pokemon_stage,evolves_from,ex
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Oddish,001,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Gloom,002,One Diamond,Grass,Stage1,Oddish,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Bellossom,003,Two Diamond,Grass,Stage2,Gloom,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangela,004,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangrowth,005,Two Diamond,Grass,Stage1,Tangela,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanma,006,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,007,Four Diamond,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Roselia,008,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Roserade,009,Two Diamond,Grass,Stage1,Roselia,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Turtwig,010,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Grotle,011,Two Diamond,Grass,Stage1,Turtwig,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Torterra,012,Three Diamond,Grass,Stage2,Grotle,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Kricketot,013,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Kricketune,014,One Diamond,Grass,Stage1,Kricketot,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Burmy,015,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Wormadam,016,One Diamond,Grass,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Combee,017,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Vespiquen,018,Two Diamond,Grass,Stage1,Combee,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Carnivine,019,Two Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Leafeon,020,Three Diamond,Grass,Stage1,Eevee,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mow Rotom,021,One Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shaymin,022,Three Diamond,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Magmar,023,One Diamond,Fire,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Magmortar,024,Three Diamond,Fire,Stage1,Magmar,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Slugma,025,One Diamond,Fire,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magcargo,026,Two Diamond,Fire,Stage1,Slugma,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Chimchar,027,One Diamond,Fire,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Monferno,028,Two Diamond,Fire,Stage1,Chimchar,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,029,Four Diamond,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Heat Rotom,030,One Diamond,Fire,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Swinub,031,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Piloswine,032,Two Diamond,Water,Stage1,Swinub,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mamoswine,033,Three Diamond,Water,Stage2,Piloswine,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Regice,034,Two Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Piplup,035,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Prinplup,036,Two Diamond,Water,Stage1,Piplup,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Empoleon,037,Three Diamond,Water,Stage2,Prinplup,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Buizel,038,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Floatzel,039,Two Diamond,Water,Stage1,Buizel,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Shellos,040,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gastrodon,041,Two Diamond,Water,Stage1,Shellos,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Finneon,042,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Lumineon,043,Two Diamond,Water,Stage1,Finneon,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Snover,044,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Abomasnow,045,Two Diamond,Water,Stage1,Snover,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glaceon,046,Three Diamond,Water,Stage1,Eevee,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Wash Rotom,047,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Frost Rotom,048,One Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,049,Four Diamond,Water,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Manaphy,050,Two Diamond,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magnemite,051,One Diamond,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magneton,052,Two Diamond,Lightning,Stage1,Magnemite,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magnezone,053,Three Diamond,Lightning,Stage2,Magneton,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Voltorb,054,One Diamond,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Electrode,055,Two Diamond,Lightning,Stage1,Voltorb,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Electabuzz,056,One Diamond,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Electivire,057,Three Diamond,Lightning,Stage1,Electabuzz,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shinx,058,One Diamond,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Luxio,059,Two Diamond,Lightning,Stage1,Shinx,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Luxray,060,Three Diamond,Lightning,Stage2,Luxio,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,061,Four Diamond,Lightning,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rotom,062,One Diamond,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togepi,063,One Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togetic,064,Two Diamond,Psychic,Stage1,Togepi,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togekiss,065,Three Diamond,Psychic,Stage2,Togetic,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Misdreavus,066,One Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,067,Four Diamond,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Ralts,068,One Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Kirlia,069,One Diamond,Psychic,Stage1,Ralts,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Duskull,070,One Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dusclops,071,Two Diamond,Psychic,Stage1,Duskull,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dusknoir,072,Three Diamond,Psychic,Stage2,Dusclops,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifloon,073,One Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifblim,074,Two Diamond,Psychic,Stage1,Drifloon,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Uxie,075,Two Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mesprit,076,Three Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Azelf,077,Two Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Giratina,078,Three Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cresselia,079,Three Diamond,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyhorn,080,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhydon,081,Two Diamond,Fighting,Stage1,Rhyhorn,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyperior,082,Three Diamond,Fighting,Stage2,Rhydon,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gligar,083,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gliscor,084,Two Diamond,Fighting,Stage1,Gligar,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Hitmontop,085,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Nosepass,086,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Regirock,087,Two Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Cranidos,088,Two Diamond,Fighting,Stage1,Skull Fossil,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Rampardos,089,Three Diamond,Fighting,Stage2,Cranidos,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Wormadam,090,One Diamond,Fighting,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Riolu,091,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lucario,092,Three Diamond,Fighting,Stage1,Riolu,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippopotas,093,One Diamond,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippowdon,094,Two Diamond,Fighting,Stage1,Hippopotas,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,095,Four Diamond,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Murkrow,096,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Honchkrow,097,Two Diamond,Darkness,Stage1,Murkrow,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Sneasel,098,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,099,Four Diamond,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Poochyena,100,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mightyena,101,Two Diamond,Darkness,Stage1,Poochyena,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Stunky,102,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Skuntank,103,Two Diamond,Darkness,Stage1,Stunky,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Spiritomb,104,Two Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Skorupi,105,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Drapion,106,Two Diamond,Darkness,Stage1,Skorupi,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Croagunk,107,One Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Toxicroak,108,Two Diamond,Darkness,Stage1,Croagunk,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai,109,Three Diamond,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,110,Four Diamond,Darkness,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Skarmory,111,Two Diamond,Metal,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Registeel,112,Two Diamond,Metal,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Shieldon,113,Two Diamond,Metal,Stage1,Armor Fossil,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Bastiodon,114,Three Diamond,Metal,Stage2,Shieldon,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Wormadam,115,One Diamond,Metal,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bronzor,116,One Diamond,Metal,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bronzong,117,Two Diamond,Metal,Stage1,Bronzor,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Probopass,118,Two Diamond,Metal,Stage1,Nosepass,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,119,Four Diamond,Metal,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Heatran,120,Three Diamond,Metal,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gible,121,One Diamond,Dragon,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gabite,122,Two Diamond,Dragon,Stage1,Gible,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Garchomp,123,Three Diamond,Dragon,Stage2,Gabite,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickitung,124,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,125,Four Diamond,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Eevee,126,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon,127,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon2,128,Two Diamond,Colorless,Stage1,Porygon,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon-Z,129,Three Diamond,Colorless,Stage2,Porygon2,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Aipom,130,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Ambipom,131,One Diamond,Colorless,Stage1,Aipom,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Starly,132,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staravia,133,One Diamond,Colorless,Stage1,Starly,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staraptor,134,Two Diamond,Colorless,Stage2,Staravia,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bidoof,135,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bibarel,136,One Diamond,Colorless,Stage1,Bidoof,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Buneary,137,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lopunny,138,One Diamond,Colorless,Stage1,Buneary,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glameow,139,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Purugly,140,Two Diamond,Colorless,Stage1,Glameow,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Chatot,141,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Fan Rotom,142,One Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Regigigas,143,Three Diamond,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Skull Fossil,144,One Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Armor Fossil,145,One Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pokémon Communication,146,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Giant Cape,147,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rocky Helmet,148,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lum Berry,149,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cyrus,150,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Team Galactic Grunt,151,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cynthia,152,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Volkner,153,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dawn,154,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mars,155,Two Diamond,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangrowth,156,One Star,Grass,Stage1,Tangela,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Combee,157,One Star,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Carnivine,158,One Star,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shaymin,159,One Star,Grass,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mamoswine,160,One Star,Water,Stage2,Piloswine,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gastrodon,161,One Star,Water,Stage1,Shellos,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Manaphy,162,One Star,Water,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shinx,163,One Star,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rotom,164,One Star,Lightning,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifloon,165,One Star,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mesprit,166,One Star,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Giratina,167,One Star,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cresselia,168,One Star,Psychic,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyperior,169,One Star,Fighting,Stage2,Rhydon,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lucario,170,One Star,Fighting,Stage1,Riolu,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippopotas,171,One Star,Fighting,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Spiritomb,172,One Star,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Croagunk,173,One Star,Darkness,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Heatran,174,One Star,Metal,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Garchomp,175,One Star,Dragon,Stage2,Gabite,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staraptor,176,One Star,Colorless,Stage2,Staravia,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bidoof,177,One Star,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glameow,178,One Star,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Regigigas,179,One Star,Colorless,Basic,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,180,Two Star,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,181,Two Star,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,182,Two Star,Water,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,183,Two Star,Lightning,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,184,Two Star,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,185,Two Star,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,186,Two Star,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,187,Two Star,Darkness,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,188,Two Star,Metal,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,189,Two Star,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cyrus,190,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Team Galactic Grunt,191,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cynthia,192,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Volkner,193,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dawn,194,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mars,195,Two Star,Trainer,N/A,N/A,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,196,Two Star,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,197,Two Star,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,198,Two Star,Lightning,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,199,Two Star,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,200,Two Star,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,201,Two Star,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,202,Two Star,Darkness,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,203,Two Star,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,204,Three Star,Water,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,205,Three Star,Metal,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Palkia ex,206,Crown,Water,Basic,N/A,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Dialga ex,207,Crown,Metal,Basic,N/A,Yes

@@ -1,0 +1,97 @@
+set_name,set_code,set_release_date,set_total_cards,pack_name,card_name,card_number,card_rarity,card_type,pokemon_stage,evolves_from,ex
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Heracross,001,Two Diamond,Grass,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Burmy,002,One Diamond,Grass,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Mothim,003,Two Diamond,Grass,Stage1,Burmy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Combee,004,One Diamond,Grass,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Vespiquen,005,Two Diamond,Grass,Stage1,Combee,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherubi,006,One Diamond,Grass,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherrim,007,Two Diamond,Grass,Stage1,Cherubi,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherrim,008,Two Diamond,Grass,Stage1,Cherubi,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Carnivine,009,Three Diamond,Grass,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,010,Four Diamond,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndour,011,One Diamond,Fire,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndoom,012,Two Diamond,Fire,Stage1,Houndour,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Heatran,013,Three Diamond,Fire,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Marill,014,One Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Azumarill,015,One Diamond,Water,Stage1,Marill,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barboach,016,One Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Whiscash,017,Two Diamond,Water,Stage1,Barboach,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snorunt,018,One Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Froslass,019,Two Diamond,Water,Stage1,Snorunt,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snover,020,One Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Abomasnow,021,Three Diamond,Water,Stage1,Snover,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,022,Four Diamond,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Origin Forme Palkia,023,Three Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Phione,024,Two Diamond,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Pikachu,025,One Diamond,Lightning,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Raichu,026,Three Diamond,Lightning,Stage1,Pikachu,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Electrike,027,One Diamond,Lightning,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Manectric,028,Two Diamond,Lightning,Stage1,Electrike,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Clefairy,029,One Diamond,Psychic,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Clefable,030,Two Diamond,Psychic,Stage1,Clefairy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gastly,031,One Diamond,Psychic,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Haunter,032,One Diamond,Psychic,Stage1,Gastly,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gengar,033,Two Diamond,Psychic,Stage2,Haunter,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Unown,034,Two Diamond,Psychic,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Rotom,035,Three Diamond,Psychic,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Sudowoodo,036,Two Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Phanpy,037,One Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Donphan,038,Two Diamond,Fighting,Stage1,Phanpy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Larvitar,039,One Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Pupitar,040,Two Diamond,Fighting,Stage1,Larvitar,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Tyranitar,041,Three Diamond,Fighting,Stage2,Pupitar,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Nosepass,042,One Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Meditite,043,One Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Medicham,044,Two Diamond,Fighting,Stage1,Meditite,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gible,045,One Diamond,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gabite,046,One Diamond,Fighting,Stage1,Gible,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,047,Four Diamond,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Zubat,048,One Diamond,Darkness,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Golbat,049,One Diamond,Darkness,Stage1,Zubat,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Crobat,050,Three Diamond,Darkness,Stage2,Golbat,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Croagunk,051,One Diamond,Darkness,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Toxicroak,052,Two Diamond,Darkness,Stage1,Croagunk,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnemite,053,One Diamond,Metal,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magneton,054,One Diamond,Metal,Stage1,Magnemite,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnezone,055,Three Diamond,Metal,Stage2,Magneton,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Mawile,056,One Diamond,Metal,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,057,Four Diamond,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Bronzor,058,One Diamond,Metal,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Bronzong,059,Two Diamond,Metal,Stage1,Bronzor,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Origin Forme Dialga,060,Three Diamond,Metal,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Giratina,061,Three Diamond,Dragon,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Eevee,062,One Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snorlax,063,Two Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Hoothoot,064,One Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Noctowl,065,Two Diamond,Colorless,Stage1,Hoothoot,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Starly,066,One Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Staravia,067,One Diamond,Colorless,Stage1,Starly,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Staraptor,068,Two Diamond,Colorless,Stage2,Staravia,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Shaymin,069,Three Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus,070,Three Diamond,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,071,Four Diamond,Colorless,Basic,N/A,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Irida,072,Two Diamond,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Celestic Town Elder,073,Two Diamond,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barry,074,Two Diamond,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Adaman,075,Two Diamond,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndoom,076,One Star,Fire,Stage1,Houndour,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Marill,077,One Star,Water,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Unown,078,One Star,Psychic,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Sudowoodo,079,One Star,Fighting,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnemite,080,One Star,Metal,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Shaymin,081,One Star,Colorless,Basic,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,082,Two Star,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,083,Two Star,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,084,Two Star,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,085,Two Star,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,086,Two Star,Colorless,Basic,N/A,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Irida,087,Two Star,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Celestic Town Elder,088,Two Star,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barry,089,Two Star,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Adaman,090,Two Star,Trainer,N/A,N/A,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,091,Two Star,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,092,Two Star,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,093,Two Star,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,094,Two Star,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,095,Three Star,Colorless,Basic,N/A,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,096,Crown,Colorless,Basic,N/A,Yes

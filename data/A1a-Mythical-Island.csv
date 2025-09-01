@@ -1,0 +1,87 @@
+set_name,set_code,set_release_date,set_total_cards,pack_name,card_name,card_number,card_rarity,card_type,pokemon_stage,evolves_from,ex
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggcute,001,One Diamond,Grass,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggutor,002,Two Diamond,Grass,Stage1,Exeggcute,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,003,Four Diamond,Grass,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Snivy,004,One Diamond,Grass,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Servine,005,Two Diamond,Grass,Stage1,Snivy,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Serperior,006,Three Diamond,Grass,Stage2,Servine,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Morelull,007,One Diamond,Grass,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Shiinotic,008,Two Diamond,Grass,Stage1,Morelull,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dhelmise,009,Two Diamond,Grass,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Ponyta,010,One Diamond,Fire,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Rapidash,011,Two Diamond,Fire,Stage1,Ponyta,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Magmar,012,Two Diamond,Fire,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Larvesta,013,One Diamond,Fire,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Volcarona,014,Three Diamond,Fire,Stage1,Larvesta,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salandit,015,One Diamond,Fire,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salazzle,016,One Diamond,Fire,Stage1,Salandit,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Magikarp,017,One Diamond,Water,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Gyarados ex,018,Four Diamond,Water,Stage1,Magikarp,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Vaporeon,019,Three Diamond,Water,Stage1,Eevee,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Finneon,020,One Diamond,Water,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Lumineon,021,Two Diamond,Water,Stage1,Finneon,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Chewtle,022,One Diamond,Water,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Drednaw,023,Two Diamond,Water,Stage1,Chewtle,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Cramorant,024,One Diamond,Water,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pikachu,025,One Diamond,Lightning,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Raichu,026,Three Diamond,Lightning,Stage1,Pikachu,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Electabuzz,027,Two Diamond,Lightning,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Joltik,028,One Diamond,Lightning,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Galvantula,029,Two Diamond,Lightning,Stage1,Joltik,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dedenne,030,One Diamond,Lightning,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew,031,Three Diamond,Psychic,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,032,Four Diamond,Psychic,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Sigilyph,033,Two Diamond,Psychic,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Elgyem,034,One Diamond,Psychic,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Beheeyem,035,Two Diamond,Psychic,Stage1,Elgyem,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Flabébé,036,One Diamond,Psychic,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Floette,037,One Diamond,Psychic,Stage1,Flabébé,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Florges,038,Two Diamond,Psychic,Stage2,Floette,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Swirlix,039,One Diamond,Psychic,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Slurpuff,040,One Diamond,Psychic,Stage1,Swirlix,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mankey,041,One Diamond,Fighting,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Primeape,042,One Diamond,Fighting,Stage1,Mankey,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Geodude,043,One Diamond,Fighting,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Graveler,044,Two Diamond,Fighting,Stage1,Geodude,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Golem,045,Three Diamond,Fighting,Stage2,Graveler,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,046,Four Diamond,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Marshadow,047,Three Diamond,Fighting,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Stonjourner,048,Two Diamond,Fighting,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Koffing,049,One Diamond,Darkness,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Weezing,050,Two Diamond,Darkness,Stage1,Koffing,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Purrloin,051,One Diamond,Darkness,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Liepard,052,One Diamond,Darkness,Stage1,Purrloin,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Venipede,053,One Diamond,Darkness,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Whirlipede,054,One Diamond,Darkness,Stage1,Venipede,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Scolipede,055,Two Diamond,Darkness,Stage2,Whirlipede,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Druddigon,056,Two Diamond,Dragon,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgey,057,One Diamond,Colorless,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeotto,058,One Diamond,Colorless,Stage1,Pidgey,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeot ex,059,Four Diamond,Colorless,Stage2,Pidgeotto,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Tauros,060,Three Diamond,Colorless,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Eevee,061,One Diamond,Colorless,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Chatot,062,One Diamond,Colorless,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Old Amber,063,One Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pokémon Flute,064,Two Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mythical Slab,065,Two Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Budding Expeditioner,066,Two Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Blue,067,Two Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Leaf,068,Two Diamond,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggutor,069,One Star,Grass,Stage1,Exeggcute,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Serperior,070,One Star,Grass,Stage2,Servine,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salandit,071,One Star,Fire,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Vaporeon,072,One Star,Water,Stage1,Eevee,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dedenne,073,One Star,Lightning,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Marshadow,074,One Star,Fighting,Basic,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,075,Two Star,Grass,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Gyarados ex,076,Two Star,Water,Stage1,Magikarp,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,077,Two Star,Psychic,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,078,Two Star,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeot ex,079,Two Star,Colorless,Stage2,Pidgeotto,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Budding Expeditioner,080,Two Star,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Blue,081,Two Star,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Leaf,082,Two Star,Trainer,N/A,N/A,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,083,Two Star,Psychic,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,084,Two Star,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,085,Three Star,Grass,Basic,N/A,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,086,Crown,Psychic,Basic,N/A,Yes

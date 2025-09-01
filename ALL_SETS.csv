@@ -1,0 +1,1682 @@
+set_name,set_code,set_release_date,set_total_cards,pack_name,card_name,card_number,card_rarity,card_type,pokemon_stage,evolves_from,ex
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Bulbasaur,1,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Ivysaur,2,Two Diamond,Grass,Stage1,Bulbasaur,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Venusaur,3,Three Diamond,Grass,Stage2,Ivysaur,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Venusaur ex,4,Four Diamond,Grass,Stage2,Ivysaur,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Caterpie,5,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Metapod,6,One Diamond,Grass,Stage1,Caterpie,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Butterfree,7,Three Diamond,Grass,Stage2,Metapod,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Weedle,8,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Kakuna,9,One Diamond,Grass,Stage1,Weedle,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Beedrill,10,Three Diamond,Grass,Stage2,Kakuna,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Oddish,11,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Gloom,12,Two Diamond,Grass,Stage1,Oddish,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Vileplume,13,Three Diamond,Grass,Stage2,Gloom,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Paras,14,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Parasect,15,Two Diamond,Grass,Stage1,Paras,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Venonat,16,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Venomoth,17,Two Diamond,Grass,Stage1,Venonat,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Bellsprout,18,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Weepinbell,19,Two Diamond,Grass,Stage1,Bellsprout,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Victreebel,20,Three Diamond,Grass,Stage2,Weepinbell,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Exeggcute,21,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Exeggutor,22,Three Diamond,Grass,Stage1,Exeggcute,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Exeggutor ex,23,Four Diamond,Grass,Stage1,Exeggcute,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Tangela,24,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Scyther,25,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Pinsir,26,Two Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Cottonee,27,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Whimsicott,28,Two Diamond,Grass,Stage1,Cottonee,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Petilil,29,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Lilligant,30,Two Diamond,Grass,Stage1,Petilil,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Skiddo,31,One Diamond,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Gogoat,32,One Diamond,Grass,Stage1,Skiddo,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Charmander,33,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Charmeleon,34,Two Diamond,Fire,Stage1,Charmander,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Charizard,35,Three Diamond,Fire,Stage2,Charmeleon,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Charizard ex,36,Four Diamond,Fire,Stage2,Charmeleon,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Vulpix,37,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Ninetales,38,Two Diamond,Fire,Stage1,Vulpix,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Growlithe,39,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Arcanine,40,Three Diamond,Fire,Stage1,Growlithe,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Arcanine ex,41,Four Diamond,Fire,Stage1,Growlithe,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Ponyta,42,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Rapidash,43,Two Diamond,Fire,Stage1,Ponyta,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Magmar,44,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Flareon,45,Three Diamond,Fire,Stage1,Eevee,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Moltres,46,Three Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Moltres ex,47,Four Diamond,Fire,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Heatmor,48,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Salandit,49,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Salazzle,50,One Diamond,Fire,Stage1,Salandit,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Sizzlipede,51,One Diamond,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Centiskorch,52,Two Diamond,Fire,Stage1,Sizzlipede,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Squirtle,53,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Wartortle,54,Two Diamond,Water,Stage1,Squirtle,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Blastoise,55,Three Diamond,Water,Stage2,Wartortle,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Blastoise ex,56,Four Diamond,Water,Stage2,Wartortle,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Psyduck,57,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Golduck,58,Two Diamond,Water,Stage1,Psyduck,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Poliwag,59,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Poliwhirl,60,Two Diamond,Water,Stage1,Poliwag,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Poliwrath,61,Three Diamond,Water,Stage2,Poliwhirl,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Tentacool,62,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Tentacruel,63,Two Diamond,Water,Stage1,Tentacool,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Seel,64,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Dewgong,65,Two Diamond,Water,Stage1,Seel,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Shellder,66,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Cloyster,67,Two Diamond,Water,Stage1,Shellder,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Krabby,68,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Kingler,69,Two Diamond,Water,Stage1,Krabby,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Horsea,70,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Seadra,71,Two Diamond,Water,Stage1,Horsea,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Goldeen,72,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Seaking,73,One Diamond,Water,Stage1,Goldeen,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Staryu,74,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Starmie,75,Two Diamond,Water,Stage1,Staryu,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Starmie ex,76,Four Diamond,Water,Stage1,Staryu,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Magikarp,77,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Gyarados,78,Three Diamond,Water,Stage1,Magikarp,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Lapras,79,Three Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Vaporeon,80,Three Diamond,Water,Stage1,Eevee,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Omanyte,81,Two Diamond,Water,Stage1,Helix Fossil,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Omastar,82,Three Diamond,Water,Stage2,Omanyte,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Articuno,83,Three Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Articuno ex,84,Four Diamond,Water,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Ducklett,85,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Swanna,86,Two Diamond,Water,Stage1,Ducklett,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Froakie,87,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Frogadier,88,Two Diamond,Water,Stage1,Froakie,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Greninja,89,Three Diamond,Water,Stage2,Frogadier,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Pyukumuku,90,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Bruxish,91,Two Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Snom,92,One Diamond,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Frosmoth,93,Two Diamond,Water,Stage1,Snom,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Pikachu,94,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Raichu,95,Three Diamond,Lightning,Stage1,Pikachu,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Pikachu ex,96,Four Diamond,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Magnemite,97,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Magneton,98,Three Diamond,Lightning,Stage1,Magnemite,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Voltorb,99,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Electrode,100,Two Diamond,Lightning,Stage1,Voltorb,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Electabuzz,101,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Jolteon,102,Three Diamond,Lightning,Stage1,Eevee,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Zapdos,103,Three Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Zapdos ex,104,Four Diamond,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Blitzle,105,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Zebstrika,106,Two Diamond,Lightning,Stage1,Blitzle,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Tynamo,107,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Eelektrik,108,Two Diamond,Lightning,Stage1,Tynamo,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Eelektross,109,Three Diamond,Lightning,Stage2,Eelektrik,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Helioptile,110,One Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Heliolisk,111,One Diamond,Lightning,Stage1,Helioptile,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Pincurchin,112,Two Diamond,Lightning,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Clefairy,113,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Clefable,114,Two Diamond,Psychic,Stage1,Clefairy,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Abra,115,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Kadabra,116,Two Diamond,Psychic,Stage1,Abra,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Alakazam,117,Three Diamond,Psychic,Stage2,Kadabra,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Slowpoke,118,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Slowbro,119,Two Diamond,Psychic,Stage1,Slowpoke,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gastly,120,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Haunter,121,Two Diamond,Psychic,Stage1,Gastly,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gengar,122,Three Diamond,Psychic,Stage2,Haunter,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gengar ex,123,Four Diamond,Psychic,Stage2,Haunter,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Drowzee,124,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Hypno,125,Three Diamond,Psychic,Stage1,Drowzee,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Mr. Mime,126,Two Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Jynx,127,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Mewtwo,128,Three Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Mewtwo ex,129,Four Diamond,Psychic,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Ralts,130,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Kirlia,131,Two Diamond,Psychic,Stage1,Ralts,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gardevoir,132,Three Diamond,Psychic,Stage2,Kirlia,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Woobat,133,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Swoobat,134,One Diamond,Psychic,Stage1,Woobat,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Golett,135,One Diamond,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Golurk,136,Two Diamond,Psychic,Stage1,Golett,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Sandshrew,137,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Sandslash,138,Two Diamond,Fighting,Stage1,Sandshrew,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Diglett,139,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Dugtrio,140,Two Diamond,Fighting,Stage1,Diglett,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Mankey,141,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Primeape,142,Two Diamond,Fighting,Stage1,Mankey,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Machop,143,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Machoke,144,Two Diamond,Fighting,Stage1,Machop,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Machamp,145,Three Diamond,Fighting,Stage2,Machoke,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Machamp ex,146,Four Diamond,Fighting,Stage2,Machoke,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Geodude,147,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Graveler,148,Two Diamond,Fighting,Stage1,Geodude,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Golem,149,Three Diamond,Fighting,Stage2,Graveler,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Onix,150,Two Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Cubone,151,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Marowak,152,Two Diamond,Fighting,Stage1,Cubone,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Marowak ex,153,Four Diamond,Fighting,Stage1,Cubone,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Hitmonlee,154,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Hitmonchan,155,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Rhyhorn,156,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Rhydon,157,Two Diamond,Fighting,Stage1,Rhyhorn,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Kabuto,158,Two Diamond,Fighting,Stage1,Dome Fossil,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Kabutops,159,Three Diamond,Fighting,Stage2,Kabuto,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Mienfoo,160,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Mienshao,161,Two Diamond,Fighting,Stage1,Mienfoo,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Clobbopus,162,One Diamond,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Grapploct,163,Two Diamond,Fighting,Stage1,Clobbopus,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Ekans,164,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Arbok,165,Two Diamond,Darkness,Stage1,Ekans,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoran♀,166,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidorina,167,Two Diamond,Darkness,Stage1,Nidoran♀,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoqueen,168,Three Diamond,Darkness,Stage2,Nidorina,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoran♂,169,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidorino,170,Two Diamond,Darkness,Stage1,Nidoran♂,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoking,171,Three Diamond,Darkness,Stage2,Nidorino,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Zubat,172,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Golbat,173,Two Diamond,Darkness,Stage1,Zubat,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Grimer,174,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Muk,175,Three Diamond,Darkness,Stage1,Grimer,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Koffing,176,One Diamond,Darkness,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Weezing,177,Three Diamond,Darkness,Stage1,Koffing,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Mawile,178,One Diamond,Metal,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Pawniard,179,One Diamond,Metal,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Bisharp,180,Two Diamond,Metal,Stage1,Pawniard,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Meltan,181,One Diamond,Metal,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Melmetal,182,Three Diamond,Metal,Stage1,Meltan,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Dratini,183,One Diamond,Dragon,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Dragonair,184,Two Diamond,Dragon,Stage1,Dratini,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Dragonite,185,Three Diamond,Dragon,Stage2,Dragonair,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Pidgey,186,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Pidgeotto,187,One Diamond,Colorless,Stage1,Pidgey,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Pidgeot,188,Three Diamond,Colorless,Stage2,Pidgeotto,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Rattata,189,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Raticate,190,One Diamond,Colorless,Stage1,Rattata,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Spearow,191,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Fearow,192,One Diamond,Colorless,Stage1,Spearow,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Jigglypuff,193,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Wigglytuff,194,One Diamond,Colorless,Stage1,Jigglypuff,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Wigglytuff ex,195,Four Diamond,Colorless,Stage1,Jigglypuff,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Meowth,196,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Persian,197,Two Diamond,Colorless,Stage1,Meowth,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Farfetch'd,198,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Doduo,199,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Dodrio,200,Two Diamond,Colorless,Stage1,Doduo,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Lickitung,201,Two Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Chansey,202,Two Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Kangaskhan,203,Three Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Tauros,204,Two Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Ditto,205,Three Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Eevee,206,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Eevee,207,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Eevee,208,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Porygon,209,Two Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Aerodactyl,210,Three Diamond,Colorless,Stage1,Old Amber,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Snorlax,211,Three Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Minccino,212,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Cinccino,213,Two Diamond,Colorless,Stage1,Minccino,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Wooloo,214,One Diamond,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Dubwool,215,One Diamond,Colorless,Stage1,Wooloo,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Helix Fossil,216,One Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Dome Fossil,217,One Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Old Amber,218,One Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Erika,219,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Misty,220,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Blaine,221,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Koga,222,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Giovanni,223,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Brock,224,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Sabrina,225,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Lt. Surge,226,Two Diamond,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Bulbasaur,227,One Star,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Gloom,228,One Star,Grass,Stage1,Oddish,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Pinsir,229,One Star,Grass,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Charmander,230,One Star,Fire,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Rapidash,231,One Star,Fire,Stage1,Ponyta,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Squirtle,232,One Star,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Gyarados,233,One Star,Water,Stage1,Magikarp,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Lapras,234,One Star,Water,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Electrode,235,One Star,Lightning,Stage1,Voltorb,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Alakazam,236,One Star,Psychic,Stage2,Kadabra,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Slowpoke,237,One Star,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Diglett,238,One Star,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Cubone,239,One Star,Fighting,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoqueen,240,One Star,Darkness,Stage2,Nidorina,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Nidoking,241,One Star,Darkness,Stage2,Nidorino,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Golbat,242,One Star,Darkness,Stage1,Zubat,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Weezing,243,One Star,Darkness,Stage1,Koffing,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Dragonite,244,One Star,Dragon,Stage2,Dragonair,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Pidgeot,245,One Star,Colorless,Stage2,Pidgeotto,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Meowth,246,One Star,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Ditto,247,One Star,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Eevee,248,One Star,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Porygon,249,One Star,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Snorlax,250,One Star,Colorless,Basic,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Venusaur ex,251,Two Star,Grass,Stage2,Ivysaur,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Exeggutor ex,252,Two Star,Grass,Stage1,Exeggcute,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Charizard ex,253,Two Star,Fire,Stage2,Charmeleon,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Arcanine ex,254,Two Star,Fire,Stage1,Growlithe,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Moltres ex,255,Two Star,Fire,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Blastoise ex,256,Two Star,Water,Stage2,Wartortle,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Starmie ex,257,Two Star,Water,Stage1,Staryu,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Articuno ex,258,Two Star,Water,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Pikachu ex,259,Two Star,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Zapdos ex,260,Two Star,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gengar ex,261,Two Star,Psychic,Stage2,Haunter,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Mewtwo ex,262,Two Star,Psychic,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Machamp ex,263,Two Star,Fighting,Stage2,Machoke,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Marowak ex,264,Two Star,Fighting,Stage1,Cubone,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Wigglytuff ex,265,,Colorless,Stage1,Jigglypuff,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Erika,266,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Misty,267,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Blaine,268,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Koga,269,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Giovanni,270,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Brock,271,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Sabrina,272,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Pikachu,Lt. Surge,273,Two Star,Trainer,,,No
+Genetic Apex,A1,2024-10-30,226,Charizard,Moltres ex,274,Two Star,Fire,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Articuno ex,275,Two Star,Water,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Zapdos ex,276,Two Star,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Gengar ex,277,Two Star,Psychic,Stage2,Haunter,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Machamp ex,278,Two Star,Fighting,Stage2,Machoke,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Wigglytuff ex,279,,Colorless,Stage1,Jigglypuff,Yes
+Genetic Apex,A1,2024-10-30,226,Charizard,Charizard ex,280,Three Star,Fire,Stage2,Charmeleon,Yes
+Genetic Apex,A1,2024-10-30,226,Pikachu,Pikachu ex,281,Three Star,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,Mewtwo,Mewtwo ex,282,Three Star,Psychic,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Mew,283,Three Star,Psychic,Basic,,No
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Charizard ex,284,Crown,Fire,Stage2,Charmeleon,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Pikachu ex,285,Crown,Lightning,Basic,,Yes
+Genetic Apex,A1,2024-10-30,226,"Mewtwo, Charizard, Pikachu",Mewtwo ex,286,Crown,Psychic,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggcute,1,One Diamond,Grass,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggutor,2,Two Diamond,Grass,Stage1,Exeggcute,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,3,Four Diamond,Grass,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Snivy,4,One Diamond,Grass,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Servine,5,Two Diamond,Grass,Stage1,Snivy,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Serperior,6,Three Diamond,Grass,Stage2,Servine,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Morelull,7,One Diamond,Grass,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Shiinotic,8,Two Diamond,Grass,Stage1,Morelull,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dhelmise,9,Two Diamond,Grass,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Ponyta,10,One Diamond,Fire,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Rapidash,11,Two Diamond,Fire,Stage1,Ponyta,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Magmar,12,Two Diamond,Fire,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Larvesta,13,One Diamond,Fire,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Volcarona,14,Three Diamond,Fire,Stage1,Larvesta,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salandit,15,One Diamond,Fire,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salazzle,16,One Diamond,Fire,Stage1,Salandit,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Magikarp,17,One Diamond,Water,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Gyarados ex,18,Four Diamond,Water,Stage1,Magikarp,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Vaporeon,19,Three Diamond,Water,Stage1,Eevee,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Finneon,20,One Diamond,Water,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Lumineon,21,Two Diamond,Water,Stage1,Finneon,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Chewtle,22,One Diamond,Water,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Drednaw,23,Two Diamond,Water,Stage1,Chewtle,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Cramorant,24,One Diamond,Water,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pikachu,25,One Diamond,Lightning,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Raichu,26,Three Diamond,Lightning,Stage1,Pikachu,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Electabuzz,27,Two Diamond,Lightning,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Joltik,28,One Diamond,Lightning,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Galvantula,29,Two Diamond,Lightning,Stage1,Joltik,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dedenne,30,One Diamond,Lightning,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew,31,Three Diamond,Psychic,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,32,Four Diamond,Psychic,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Sigilyph,33,Two Diamond,Psychic,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Elgyem,34,One Diamond,Psychic,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Beheeyem,35,Two Diamond,Psychic,Stage1,Elgyem,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Flabébé,36,One Diamond,Psychic,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Floette,37,One Diamond,Psychic,Stage1,Flabébé,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Florges,38,Two Diamond,Psychic,Stage2,Floette,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Swirlix,39,One Diamond,Psychic,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Slurpuff,40,One Diamond,Psychic,Stage1,Swirlix,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mankey,41,One Diamond,Fighting,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Primeape,42,One Diamond,Fighting,Stage1,Mankey,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Geodude,43,One Diamond,Fighting,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Graveler,44,Two Diamond,Fighting,Stage1,Geodude,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Golem,45,Three Diamond,Fighting,Stage2,Graveler,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,46,Four Diamond,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Marshadow,47,Three Diamond,Fighting,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Stonjourner,48,Two Diamond,Fighting,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Koffing,49,One Diamond,Darkness,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Weezing,50,Two Diamond,Darkness,Stage1,Koffing,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Purrloin,51,One Diamond,Darkness,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Liepard,52,One Diamond,Darkness,Stage1,Purrloin,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Venipede,53,One Diamond,Darkness,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Whirlipede,54,One Diamond,Darkness,Stage1,Venipede,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Scolipede,55,Two Diamond,Darkness,Stage2,Whirlipede,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Druddigon,56,Two Diamond,Dragon,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgey,57,One Diamond,Colorless,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeotto,58,One Diamond,Colorless,Stage1,Pidgey,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeot ex,59,Four Diamond,Colorless,Stage2,Pidgeotto,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Tauros,60,Three Diamond,Colorless,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Eevee,61,One Diamond,Colorless,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Chatot,62,One Diamond,Colorless,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Old Amber,63,One Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pokémon Flute,64,Two Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mythical Slab,65,Two Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Budding Expeditioner,66,Two Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Blue,67,Two Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Leaf,68,Two Diamond,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Exeggutor,69,One Star,Grass,Stage1,Exeggcute,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Serperior,70,One Star,Grass,Stage2,Servine,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Salandit,71,One Star,Fire,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Vaporeon,72,One Star,Water,Stage1,Eevee,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Dedenne,73,One Star,Lightning,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Marshadow,74,One Star,Fighting,Basic,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,75,Two Star,Grass,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Gyarados ex,76,Two Star,Water,Stage1,Magikarp,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,77,Two Star,Psychic,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,78,Two Star,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Pidgeot ex,79,Two Star,Colorless,Stage2,Pidgeotto,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Budding Expeditioner,80,Two Star,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Blue,81,Two Star,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Leaf,82,Two Star,Trainer,,,No
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,83,Two Star,Psychic,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Aerodactyl ex,84,Two Star,Fighting,Stage1,Old Amber,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Celebi ex,85,Three Star,Grass,Basic,,Yes
+Mythical Island,A1a,2024-12-17,68,Mythical Island,Mew ex,86,Crown,Psychic,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Oddish,1,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Gloom,2,One Diamond,Grass,Stage1,Oddish,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Bellossom,3,Two Diamond,Grass,Stage2,Gloom,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangela,4,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangrowth,5,Two Diamond,Grass,Stage1,Tangela,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanma,6,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,7,Four Diamond,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Roselia,8,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Roserade,9,Two Diamond,Grass,Stage1,Roselia,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Turtwig,10,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Grotle,11,Two Diamond,Grass,Stage1,Turtwig,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Torterra,12,Three Diamond,Grass,Stage2,Grotle,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Kricketot,13,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Kricketune,14,One Diamond,Grass,Stage1,Kricketot,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Burmy,15,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Wormadam,16,One Diamond,Grass,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Combee,17,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Vespiquen,18,Two Diamond,Grass,Stage1,Combee,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Carnivine,19,Two Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Leafeon,20,Three Diamond,Grass,Stage1,Eevee,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mow Rotom,21,One Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shaymin,22,Three Diamond,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Magmar,23,One Diamond,Fire,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Magmortar,24,Three Diamond,Fire,Stage1,Magmar,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Slugma,25,One Diamond,Fire,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magcargo,26,Two Diamond,Fire,Stage1,Slugma,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Chimchar,27,One Diamond,Fire,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Monferno,28,Two Diamond,Fire,Stage1,Chimchar,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,29,Four Diamond,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Heat Rotom,30,One Diamond,Fire,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Swinub,31,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Piloswine,32,Two Diamond,Water,Stage1,Swinub,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mamoswine,33,Three Diamond,Water,Stage2,Piloswine,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Regice,34,Two Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Piplup,35,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Prinplup,36,Two Diamond,Water,Stage1,Piplup,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Empoleon,37,Three Diamond,Water,Stage2,Prinplup,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Buizel,38,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Floatzel,39,Two Diamond,Water,Stage1,Buizel,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Shellos,40,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gastrodon,41,Two Diamond,Water,Stage1,Shellos,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Finneon,42,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Lumineon,43,Two Diamond,Water,Stage1,Finneon,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Snover,44,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Abomasnow,45,Two Diamond,Water,Stage1,Snover,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glaceon,46,Three Diamond,Water,Stage1,Eevee,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Wash Rotom,47,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Frost Rotom,48,One Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,49,Four Diamond,Water,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Manaphy,50,Two Diamond,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magnemite,51,One Diamond,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magneton,52,Two Diamond,Lightning,Stage1,Magnemite,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Magnezone,53,Three Diamond,Lightning,Stage2,Magneton,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Voltorb,54,One Diamond,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Electrode,55,Two Diamond,Lightning,Stage1,Voltorb,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Electabuzz,56,One Diamond,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Electivire,57,Three Diamond,Lightning,Stage1,Electabuzz,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shinx,58,One Diamond,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Luxio,59,Two Diamond,Lightning,Stage1,Shinx,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Luxray,60,Three Diamond,Lightning,Stage2,Luxio,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,61,Four Diamond,Lightning,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rotom,62,One Diamond,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togepi,63,One Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togetic,64,Two Diamond,Psychic,Stage1,Togepi,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Togekiss,65,Three Diamond,Psychic,Stage2,Togetic,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Misdreavus,66,One Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,67,Four Diamond,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Ralts,68,One Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Kirlia,69,One Diamond,Psychic,Stage1,Ralts,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Duskull,70,One Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dusclops,71,Two Diamond,Psychic,Stage1,Duskull,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dusknoir,72,Three Diamond,Psychic,Stage2,Dusclops,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifloon,73,One Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifblim,74,Two Diamond,Psychic,Stage1,Drifloon,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Uxie,75,Two Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mesprit,76,Three Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Azelf,77,Two Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Giratina,78,Three Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cresselia,79,Three Diamond,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyhorn,80,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhydon,81,Two Diamond,Fighting,Stage1,Rhyhorn,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyperior,82,Three Diamond,Fighting,Stage2,Rhydon,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gligar,83,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gliscor,84,Two Diamond,Fighting,Stage1,Gligar,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Hitmontop,85,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Nosepass,86,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Regirock,87,Two Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Cranidos,88,Two Diamond,Fighting,Stage1,Skull Fossil,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Rampardos,89,Three Diamond,Fighting,Stage2,Cranidos,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Wormadam,90,One Diamond,Fighting,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Riolu,91,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lucario,92,Three Diamond,Fighting,Stage1,Riolu,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippopotas,93,One Diamond,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippowdon,94,Two Diamond,Fighting,Stage1,Hippopotas,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,95,Four Diamond,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Murkrow,96,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Honchkrow,97,Two Diamond,Darkness,Stage1,Murkrow,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Sneasel,98,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,99,Four Diamond,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Poochyena,100,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Mightyena,101,Two Diamond,Darkness,Stage1,Poochyena,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Stunky,102,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Skuntank,103,Two Diamond,Darkness,Stage1,Stunky,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Spiritomb,104,Two Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Skorupi,105,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Drapion,106,Two Diamond,Darkness,Stage1,Skorupi,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Croagunk,107,One Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Toxicroak,108,Two Diamond,Darkness,Stage1,Croagunk,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai,109,Three Diamond,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,110,Four Diamond,Darkness,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Skarmory,111,Two Diamond,Metal,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Registeel,112,Two Diamond,Metal,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Shieldon,113,Two Diamond,Metal,Stage1,Armor Fossil,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Bastiodon,114,Three Diamond,Metal,Stage2,Shieldon,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Wormadam,115,One Diamond,Metal,Stage1,Burmy,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bronzor,116,One Diamond,Metal,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bronzong,117,Two Diamond,Metal,Stage1,Bronzor,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Probopass,118,Two Diamond,Metal,Stage1,Nosepass,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,119,Four Diamond,Metal,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Heatran,120,Three Diamond,Metal,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gible,121,One Diamond,Dragon,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gabite,122,Two Diamond,Dragon,Stage1,Gible,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Garchomp,123,Three Diamond,Dragon,Stage2,Gabite,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickitung,124,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,125,Four Diamond,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Eevee,126,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon,127,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon2,128,Two Diamond,Colorless,Stage1,Porygon,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Porygon-Z,129,Three Diamond,Colorless,Stage2,Porygon2,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Aipom,130,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Ambipom,131,One Diamond,Colorless,Stage1,Aipom,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Starly,132,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staravia,133,One Diamond,Colorless,Stage1,Starly,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staraptor,134,Two Diamond,Colorless,Stage2,Staravia,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bidoof,135,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bibarel,136,One Diamond,Colorless,Stage1,Bidoof,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Buneary,137,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lopunny,138,One Diamond,Colorless,Stage1,Buneary,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glameow,139,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Purugly,140,Two Diamond,Colorless,Stage1,Glameow,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Chatot,141,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Fan Rotom,142,One Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Regigigas,143,Three Diamond,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Skull Fossil,144,One Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Armor Fossil,145,One Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pokémon Communication,146,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Giant Cape,147,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rocky Helmet,148,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lum Berry,149,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cyrus,150,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Team Galactic Grunt,151,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cynthia,152,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Volkner,153,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dawn,154,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mars,155,Two Diamond,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Tangrowth,156,One Star,Grass,Stage1,Tangela,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Combee,157,One Star,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Carnivine,158,One Star,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shaymin,159,One Star,Grass,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mamoswine,160,One Star,Water,Stage2,Piloswine,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Gastrodon,161,One Star,Water,Stage1,Shellos,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Manaphy,162,One Star,Water,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Shinx,163,One Star,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rotom,164,One Star,Lightning,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Drifloon,165,One Star,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Mesprit,166,One Star,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Giratina,167,One Star,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cresselia,168,One Star,Psychic,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Rhyperior,169,One Star,Fighting,Stage2,Rhydon,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Lucario,170,One Star,Fighting,Stage1,Riolu,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Hippopotas,171,One Star,Fighting,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Spiritomb,172,One Star,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Croagunk,173,One Star,Darkness,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Heatran,174,One Star,Metal,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Garchomp,175,One Star,Dragon,Stage2,Gabite,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Staraptor,176,One Star,Colorless,Stage2,Staravia,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Bidoof,177,One Star,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Glameow,178,One Star,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Regigigas,179,One Star,Colorless,Basic,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,180,Two Star,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,181,Two Star,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,182,Two Star,Water,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,183,Two Star,Lightning,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,184,Two Star,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,185,Two Star,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,186,Two Star,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,187,Two Star,Darkness,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,188,Two Star,Metal,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,189,Two Star,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cyrus,190,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Team Galactic Grunt,191,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Cynthia,192,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Volkner,193,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dawn,194,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mars,195,Two Star,Trainer,,,No
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Yanmega ex,196,Two Star,Grass,Stage1,Yanma,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Infernape ex,197,Two Star,Fire,Stage2,Monferno,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Pachirisu ex,198,Two Star,Lightning,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Mismagius ex,199,Two Star,Psychic,Stage1,Misdreavus,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Gallade ex,200,Two Star,Fighting,Stage2,Kirlia,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Weavile ex,201,Two Star,Darkness,Stage1,Sneasel,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Darkrai ex,202,Two Star,Darkness,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Lickilicky ex,203,Two Star,Colorless,Stage1,Lickitung,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Palkia,Palkia ex,204,Three Star,Water,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,Dialga,Dialga ex,205,Three Star,Metal,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Palkia ex,206,Crown,Water,Basic,,Yes
+Space-Time Smackdown,A2,2025-01-30,140,"Palkia, Dialga",Dialga ex,207,Crown,Metal,Basic,,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Heracross,1,Two Diamond,Grass,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Burmy,2,One Diamond,Grass,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Mothim,3,Two Diamond,Grass,Stage1,Burmy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Combee,4,One Diamond,Grass,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Vespiquen,5,Two Diamond,Grass,Stage1,Combee,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherubi,6,One Diamond,Grass,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherrim,7,Two Diamond,Grass,Stage1,Cherubi,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Cherrim,8,Two Diamond,Grass,Stage1,Cherubi,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Carnivine,9,Three Diamond,Grass,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,10,Four Diamond,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndour,11,One Diamond,Fire,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndoom,12,Two Diamond,Fire,Stage1,Houndour,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Heatran,13,Three Diamond,Fire,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Marill,14,One Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Azumarill,15,One Diamond,Water,Stage1,Marill,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barboach,16,One Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Whiscash,17,Two Diamond,Water,Stage1,Barboach,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snorunt,18,One Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Froslass,19,Two Diamond,Water,Stage1,Snorunt,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snover,20,One Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Abomasnow,21,Three Diamond,Water,Stage1,Snover,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,22,Four Diamond,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Origin Forme Palkia,23,Three Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Phione,24,Two Diamond,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Pikachu,25,One Diamond,Lightning,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Raichu,26,Three Diamond,Lightning,Stage1,Pikachu,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Electrike,27,One Diamond,Lightning,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Manectric,28,Two Diamond,Lightning,Stage1,Electrike,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Clefairy,29,One Diamond,Psychic,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Clefable,30,Two Diamond,Psychic,Stage1,Clefairy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gastly,31,One Diamond,Psychic,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Haunter,32,One Diamond,Psychic,Stage1,Gastly,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gengar,33,Two Diamond,Psychic,Stage2,Haunter,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Unown,34,Two Diamond,Psychic,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Rotom,35,Three Diamond,Psychic,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Sudowoodo,36,Two Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Phanpy,37,One Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Donphan,38,Two Diamond,Fighting,Stage1,Phanpy,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Larvitar,39,One Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Pupitar,40,Two Diamond,Fighting,Stage1,Larvitar,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Tyranitar,41,Three Diamond,Fighting,Stage2,Pupitar,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Nosepass,42,One Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Meditite,43,One Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Medicham,44,Two Diamond,Fighting,Stage1,Meditite,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gible,45,One Diamond,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Gabite,46,One Diamond,Fighting,Stage1,Gible,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,47,Four Diamond,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Zubat,48,One Diamond,Darkness,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Golbat,49,One Diamond,Darkness,Stage1,Zubat,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Crobat,50,Three Diamond,Darkness,Stage2,Golbat,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Croagunk,51,One Diamond,Darkness,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Toxicroak,52,Two Diamond,Darkness,Stage1,Croagunk,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnemite,53,One Diamond,Metal,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magneton,54,One Diamond,Metal,Stage1,Magnemite,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnezone,55,Three Diamond,Metal,Stage2,Magneton,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Mawile,56,One Diamond,Metal,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,57,Four Diamond,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Bronzor,58,One Diamond,Metal,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Bronzong,59,Two Diamond,Metal,Stage1,Bronzor,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Origin Forme Dialga,60,Three Diamond,Metal,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Giratina,61,Three Diamond,Dragon,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Eevee,62,One Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Snorlax,63,Two Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Hoothoot,64,One Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Noctowl,65,Two Diamond,Colorless,Stage1,Hoothoot,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Starly,66,One Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Staravia,67,One Diamond,Colorless,Stage1,Starly,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Staraptor,68,Two Diamond,Colorless,Stage2,Staravia,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Shaymin,69,Three Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus,70,Three Diamond,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,71,Four Diamond,Colorless,Basic,,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Irida,72,Two Diamond,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Celestic Town Elder,73,Two Diamond,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barry,74,Two Diamond,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Adaman,75,Two Diamond,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Houndoom,76,One Star,Fire,Stage1,Houndour,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Marill,77,One Star,Water,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Unown,78,One Star,Psychic,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Sudowoodo,79,One Star,Fighting,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Magnemite,80,One Star,Metal,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Shaymin,81,One Star,Colorless,Basic,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,82,Two Star,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,83,Two Star,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,84,Two Star,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,85,Two Star,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,86,Two Star,Colorless,Basic,,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Irida,87,Two Star,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Celestic Town Elder,88,Two Star,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Barry,89,Two Star,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Adaman,90,Two Star,Trainer,,,No
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Leafeon ex,91,Two Star,Grass,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Glaceon ex,92,Two Star,Water,Stage1,Eevee,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Garchomp ex,93,Two Star,Fighting,Stage2,Gabite,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Probopass ex,94,Two Star,Metal,Stage1,Nosepass,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,95,Three Star,Colorless,Basic,,Yes
+Triumphant Light,A2a,2025-02-28,75,Triumphant Light,Arceus ex,96,Crown,Colorless,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Weedle,1,One Diamond,Grass,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Kakuna,2,Two Diamond,Grass,Stage1,Weedle,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Beedrill ex,3,Four Diamond,Grass,Stage2,Kakuna,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pinsir,4,One Diamond,Grass,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Sprigatito,5,One Diamond,Grass,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Floragato,6,Two Diamond,Grass,Stage1,Sprigatito,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Meowscarada,7,Three Diamond,Grass,Stage2,Floragato,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charmander,8,One Diamond,Fire,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charmeleon,9,Two Diamond,Fire,Stage1,Charmander,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charizard ex,10,Four Diamond,Fire,Stage2,Charmeleon,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Magmar,11,One Diamond,Fire,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Magmortar,12,Three Diamond,Fire,Stage1,Magmar,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Paldean Tauros,13,Two Diamond,Fire,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tentacool,14,One Diamond,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tentacruel,15,Two Diamond,Water,Stage1,Tentacool,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Buizel,16,One Diamond,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Floatzel,17,Two Diamond,Water,Stage1,Buizel,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wiglett,18,One Diamond,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wugtrio ex,19,Four Diamond,Water,Stage1,Wiglett,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Dondozo,20,Three Diamond,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tatsugiri,21,Two Diamond,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pikachu ex,22,Four Diamond,Lightning,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Voltorb,23,One Diamond,Lightning,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Electrode,24,Two Diamond,Lightning,Stage1,Voltorb,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pachirisu,25,Two Diamond,Lightning,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pawmi,26,One Diamond,Lightning,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pawmo,27,Two Diamond,Lightning,Stage1,Pawmi,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pawmot,28,Three Diamond,Lightning,Stage2,Pawmo,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Abra,29,One Diamond,Psychic,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Kadabra,30,Two Diamond,Psychic,Stage1,Abra,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Alakazam,31,Three Diamond,Psychic,Stage2,Kadabra,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Mr. Mime,32,One Diamond,Psychic,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Drifloon,33,One Diamond,Psychic,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Drifblim,34,Two Diamond,Psychic,Stage1,Drifloon,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Giratina ex,35,Four Diamond,Psychic,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Gimmighoul,36,One Diamond,Psychic,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Machop,37,One Diamond,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Machoke,38,One Diamond,Fighting,Stage1,Machop,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Machamp,39,Three Diamond,Fighting,Stage2,Machoke,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Hitmonlee,40,One Diamond,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Hitmonchan,41,One Diamond,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Riolu,42,One Diamond,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lucario ex,43,Four Diamond,Fighting,Stage1,Riolu,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Flamigo,44,Two Diamond,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Ekans,45,One Diamond,Darkness,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Arbok,46,Two Diamond,Darkness,Stage1,Ekans,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Paldean Wooper,47,One Diamond,Darkness,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Paldean Clodsire ex,48,Four Diamond,Darkness,Stage1,Paldean Wooper,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Spiritomb,49,Two Diamond,Darkness,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Shroodle,50,One Diamond,Darkness,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Grafaiai,51,Three Diamond,Darkness,Stage1,Shroodle,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tinkatink,52,One Diamond,Metal,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tinkatuff,53,Two Diamond,Metal,Stage1,Tinkatink,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tinkaton ex,54,Four Diamond,Metal,Stage2,Tinkatuff,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Varoom,55,One Diamond,Metal,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Revavroom,56,Two Diamond,Metal,Stage1,Varoom,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Gholdengo,57,Three Diamond,Metal,Stage1,Gimmighoul,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Rattata,58,One Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Raticate,59,One Diamond,Colorless,Stage1,Rattata,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Jigglypuff,60,One Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wigglytuff,61,Three Diamond,Colorless,Stage1,Jigglypuff,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lickitung,62,One Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lickilicky,63,One Diamond,Colorless,Stage1,Lickitung,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Bidoof,64,One Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Bibarel ex,65,Four Diamond,Colorless,Stage1,Bidoof,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Buneary,66,One Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lopunny,67,One Diamond,Colorless,Stage1,Buneary,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Cyclizar,68,Two Diamond,Colorless,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Iono,69,Two Diamond,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pokémon Center Lady,70,Two Diamond,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Red,71,Two Diamond,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Team Rocket Grunt,72,Two Diamond,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Meowscarada,73,One Star,Grass,Stage2,Floragato,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Buizel,74,One Star,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tatsugiri,75,One Star,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Grafaiai,76,One Star,Darkness,Stage1,Shroodle,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Gholdengo,77,One Star,Metal,Stage1,Gimmighoul,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wigglytuff,78,One Star,Colorless,Stage1,Jigglypuff,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Beedrill ex,79,Two Star,Grass,Stage2,Kakuna,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charizard ex,80,Two Star,Fire,Stage2,Charmeleon,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wugtrio ex,81,Two Star,Water,Stage1,Wiglett,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pikachu ex,82,Two Star,Lightning,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Giratina ex,83,Two Star,Psychic,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lucario ex,84,Two Star,Fighting,Stage1,Riolu,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Paldean Clodsire ex,85,Two Star,Darkness,Stage1,Paldean Wooper,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tinkaton ex,86,Two Star,Metal,Stage2,Tinkatuff,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Bibarel ex,87,Two Star,Colorless,Stage1,Bidoof,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Iono,88,Two Star,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pokémon Center Lady,89,Two Star,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Red,90,Two Star,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Team Rocket Grunt,91,Two Star,Trainer,,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pikachu ex,92,Two Star,Lightning,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Paldean Clodsire ex,93,Two Star,Darkness,Stage1,Paldean Wooper,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Tinkaton ex,94,Two Star,Metal,Stage2,Tinkatuff,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Bibarel ex,95,Two Star,Colorless,Stage1,Bidoof,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Giratina ex,96,Three Star,Psychic,Basic,,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Weedle,97,One Shiny,Grass,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Kakuna,98,One Shiny,Grass,Stage1,Weedle,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charmander,99,One Shiny,Fire,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charmeleon,100,One Shiny,Fire,Stage1,Charmander,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wiglett,101,One Shiny,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Dondozo,102,One Shiny,Water,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Pachirisu,103,One Shiny,Lightning,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Riolu,104,One Shiny,Fighting,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Varoom,105,One Shiny,Metal,Basic,,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Revavroom,106,One Shiny,Metal,Stage1,Varoom,No
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Beedrill ex,107,Two Shiny,Grass,Stage2,Kakuna,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Charizard ex,108,Two Shiny,Fire,Stage2,Charmeleon,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Wugtrio ex,109,Two Shiny,Water,Stage1,Wiglett,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Lucario ex,110,Two Shiny,Fighting,Stage1,Riolu,Yes
+Shining Revelry,A2b,2025-03-27,72,Shining Revelry,Poké Ball,111,Crown,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Exeggcute,1,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Exeggutor,2,Three Diamond,Grass,Stage1,Exeggcute,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Surskit,3,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Masquerain,4,Two Diamond,Grass,Stage1,Surskit,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Maractus,5,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Karrablast,6,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Phantump,7,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Trevenant,8,Two Diamond,Grass,Stage1,Phantump,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Rowlet,9,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Rowlet,10,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Dartrix,11,Two Diamond,Grass,Stage1,Rowlet,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Decidueye ex,12,Four Diamond,Grass,Stage2,Dartrix,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Grubbin,13,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Fomantis,14,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Lurantis,15,Two Diamond,Grass,Stage1,Fomantis,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Morelull,16,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Shiinotic,17,Two Diamond,Grass,Stage1,Morelull,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Bounsweet,18,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Steenee,19,Two Diamond,Grass,Stage1,Bounsweet,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tsareena,20,Three Diamond,Grass,Stage2,Steenee,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Wimpod,21,One Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Golisopod,22,Three Diamond,Grass,Stage1,Wimpod,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Dhelmise ex,23,Four Diamond,Grass,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tapu Bulu,24,Three Diamond,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Growlithe,25,One Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Arcanine,26,Two Diamond,Fire,Stage1,Growlithe,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Marowak,27,Two Diamond,Fire,Stage1,Cubone,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Fletchinder,28,One Diamond,Fire,Stage1,Fletchling,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Talonflame,29,Three Diamond,Fire,Stage2,Fletchinder,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Litten,30,One Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Litten,31,One Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Torracat,32,Two Diamond,Fire,Stage1,Litten,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Incineroar ex,33,Four Diamond,Fire,Stage2,Torracat,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Oricorio,34,Two Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Salandit,35,One Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Salazzle,36,One Diamond,Fire,Stage1,Salandit,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Turtonator,37,Three Diamond,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Alolan Sandshrew,38,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Alolan Sandslash,39,Two Diamond,Water,Stage1,Alolan Sandshrew,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Vulpix,40,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Ninetales,41,Three Diamond,Water,Stage1,Alolan Vulpix,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Shellder,42,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Cloyster,43,Two Diamond,Water,Stage1,Shellder,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Lapras,44,Two Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Popplio,45,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Popplio,46,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Brionne,47,Two Diamond,Water,Stage1,Popplio,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Primarina,48,Three Diamond,Water,Stage2,Brionne,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Crabominable ex,49,Four Diamond,Water,Stage1,Crabrawler,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Wishiwashi,50,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Wishiwashi ex,51,Four Diamond,Water,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Dewpider,52,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Araquanid,53,Two Diamond,Water,Stage1,Dewpider,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Pyukumuku,54,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Bruxish,55,One Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Tapu Fini,56,Three Diamond,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Pikachu,57,One Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Raichu ex,58,Four Diamond,Lightning,Stage1,Pikachu,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Geodude,59,One Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Graveler,60,Two Diamond,Lightning,Stage1,Alolan Geodude,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Golem,61,Three Diamond,Lightning,Stage2,Alolan Graveler,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Helioptile,62,One Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Heliolisk,63,One Diamond,Lightning,Stage1,Helioptile,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Charjabug,64,Two Diamond,Lightning,Stage1,Grubbin,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Vikavolt,65,Three Diamond,Lightning,Stage2,Charjabug,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Oricorio,66,Three Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Togedemaru,67,One Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tapu Koko,68,Three Diamond,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mr. Mime,69,Two Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Sableye,70,Two Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Spoink,71,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Grumpig,72,Two Diamond,Psychic,Stage1,Spoink,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Lunatone,73,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Shuppet,74,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Banette,75,One Diamond,Psychic,Stage1,Shuppet,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Oricorio,76,Two Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Oricorio,77,Two Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Cutiefly,78,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Ribombee,79,One Diamond,Psychic,Stage1,Cutiefly,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Comfey,80,Three Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Sandygast,81,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Palossand,82,Three Diamond,Psychic,Stage1,Sandygast,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Mimikyu,83,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Tapu Lele,84,Three Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Cosmog,85,One Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Cosmoem,86,Two Diamond,Psychic,Stage1,Cosmog,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Lunala ex,87,Four Diamond,Psychic,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Necrozma,88,Three Diamond,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Cubone,89,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Makuhita,90,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Hariyama,91,Two Diamond,Fighting,Stage1,Makuhita,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Solrock,92,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Drilbur,93,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Timburr,94,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Gurdurr,95,Two Diamond,Fighting,Stage1,Timburr,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Conkeldurr,96,Three Diamond,Fighting,Stage2,Gurdurr,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Crabrawler,97,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Rockruff,98,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Rockruff,99,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lycanroc,100,Three Diamond,Fighting,Stage1,Rockruff,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Lycanroc,101,Three Diamond,Fighting,Stage1,Rockruff,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mudbray,102,One Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mudsdale,103,Two Diamond,Fighting,Stage1,Mudbray,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Passimian ex,104,Four Diamond,Fighting,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Minior,105,Two Diamond,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Rattata,106,One Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Raticate,107,Two Diamond,Darkness,Stage1,Alolan Rattata,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Meowth,108,One Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Persian,109,Three Diamond,Darkness,Stage1,Alolan Meowth,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Grimer,110,One Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Muk ex,111,Four Diamond,Darkness,Stage1,Alolan Grimer,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Absol,112,Three Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Trubbish,113,One Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Garbodor,114,Two Diamond,Darkness,Stage1,Trubbish,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Mareanie,115,One Diamond,Darkness,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Toxapex,116,One Diamond,Darkness,Stage1,Mareanie,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Alolan Diglett,117,One Diamond,Metal,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Alolan Dugtrio,118,One Diamond,Metal,Stage1,Alolan Diglett,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Excadrill,119,Two Diamond,Metal,Stage1,Drilbur,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Escavalier,120,Two Diamond,Metal,Stage1,Karrablast,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Klefki,121,Three Diamond,Metal,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Solgaleo ex,122,Four Diamond,Metal,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Magearna,123,Three Diamond,Metal,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Drampa,124,Three Diamond,Dragon,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Jangmo-o,125,One Diamond,Dragon,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Hakamo-o,126,Two Diamond,Dragon,Stage1,Jangmo-o,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Kommo-o,127,Three Diamond,Dragon,Stage2,Hakamo-o,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Tauros,128,Two Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Skitty,129,One Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Delcatty,130,Two Diamond,Colorless,Stage1,Skitty,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Fletchling,131,One Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Hawlucha,132,Two Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Pikipek,133,One Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Trumbeak,134,One Diamond,Colorless,Stage1,Pikipek,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Toucannon,135,Two Diamond,Colorless,Stage2,Trumbeak,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Yungoos,136,One Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Gumshoos,137,One Diamond,Colorless,Stage1,Yungoos,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Stufful,138,One Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Bewear,139,Three Diamond,Colorless,Stage1,Stufful,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Oranguru,140,Three Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Komala,141,Two Diamond,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Big Malasada,142,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Fishing Net,143,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Rare Candy,144,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Rotom Dex,145,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Poison Barb,146,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Leaf Cape,147,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Acerola,148,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Ilima,149,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Kiawe,150,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Guzma,151,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lana,152,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Sophocles,153,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mallow,154,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lillie,155,Two Diamond,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Exeggutor,156,One Star,Grass,Stage1,Exeggcute,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Morelull,157,One Star,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tsareena,158,One Star,Grass,Stage2,Steenee,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tapu Bulu,159,One Star,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Marowak,160,One Star,Fire,Stage1,Cubone,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Turtonator,161,One Star,Fire,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Vulpix,162,One Star,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Pyukumuku,163,One Star,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Tapu Fini,164,One Star,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Oricorio,165,One Star,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Tapu Koko,166,One Star,Lightning,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Cutiefly,167,One Star,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Comfey,168,One Star,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Sandygast,169,One Star,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Tapu Lele,170,One Star,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Cosmog,171,One Star,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Rockruff,172,One Star,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mudsdale,173,One Star,Fighting,Stage1,Mudbray,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Minior,174,One Star,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Magearna,175,One Star,Metal,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Drampa,176,One Star,Dragon,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Pikipek,177,One Star,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Bewear,178,One Star,Colorless,Stage1,Stufful,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Komala,179,One Star,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Decidueye ex,180,Two Star,Grass,Stage2,Dartrix,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Dhelmise ex,181,Two Star,Grass,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Incineroar ex,182,Two Star,Fire,Stage2,Torracat,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Crabominable ex,183,Two Star,Water,Stage1,Crabrawler,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Wishiwashi ex,184,Two Star,Water,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Raichu ex,185,Two Star,Lightning,Stage1,Pikachu,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Lunala ex,186,Two Star,Psychic,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Passimian ex,187,Two Star,Fighting,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Muk ex,188,Two Star,Darkness,Stage1,Alolan Grimer,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Solgaleo ex,189,Two Star,Metal,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Acerola,190,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Ilima,191,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Kiawe,192,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Guzma,193,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lana,194,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Sophocles,195,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Mallow,196,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lillie,197,Two Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Decidueye ex,198,Two Star,Grass,Stage2,Dartrix,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Dhelmise ex,199,Two Star,Grass,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Incineroar ex,200,Two Star,Fire,Stage2,Torracat,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Crabominable ex,201,Two Star,Water,Stage1,Crabrawler,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Wishiwashi ex,202,Two Star,Water,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Alolan Raichu ex,203,Two Star,Lightning,Stage1,Pikachu,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Lunala ex,204,Two Star,Psychic,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Passimian ex,205,Two Star,Fighting,Basic,,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Alolan Muk ex,206,Two Star,Darkness,Stage1,Alolan Grimer,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Solgaleo ex,207,Two Star,Metal,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Guzma,208,Three Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Lillie,209,Three Star,Trainer,,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Bulbasaur,210,One Shiny,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Ivysaur,211,One Shiny,Grass,Stage1,Bulbasaur,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Venusaur,212,One Shiny,Grass,Stage2,Ivysaur,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Exeggcute,213,One Shiny,Grass,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Exeggutor,214,One Shiny,Grass,Stage1,Exeggcute,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Squirtle,215,One Shiny,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Wartortle,216,One Shiny,Water,Stage1,Squirtle,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Blastoise,217,One Shiny,Water,Stage2,Wartortle,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Staryu,218,One Shiny,Water,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Starmie,219,One Shiny,Water,Stage1,Staryu,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Gastly,220,One Shiny,Psychic,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Haunter,221,One Shiny,Psychic,Stage1,Gastly,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Gengar,222,One Shiny,Psychic,Stage2,Haunter,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Machop,223,One Shiny,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Machoke,224,One Shiny,Fighting,Stage1,Machop,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Machamp,225,One Shiny,Fighting,Stage2,Machoke,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Cubone,226,One Shiny,Fighting,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Lunala,Marowak,227,One Shiny,Fighting,Stage1,Cubone,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Jigglypuff,228,One Shiny,Colorless,Basic,,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Wigglytuff,229,One Shiny,Colorless,Stage1,Jigglypuff,No
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Venusaur ex,230,Two Shiny,Grass,Stage2,Ivysaur,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Exeggutor ex,231,Two Shiny,Grass,Stage1,Exeggcute,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Blastoise ex,232,Two Shiny,Water,Stage2,Wartortle,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Starmie ex,233,Two Shiny,Water,Stage1,Staryu,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Gengar ex,234,Two Shiny,Psychic,Stage2,Haunter,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Machamp ex,235,Two Shiny,Fighting,Stage2,Machoke,Yes
+Celestial Guardians,A3,2025-04-30,155,Lunala,Marowak ex,236,Two Shiny,Fighting,Stage1,Cubone,Yes
+Celestial Guardians,A3,2025-04-30,155,Solgaleo,Wigglytuff ex,237,Two Shiny,Colorless,Stage1,Jigglypuff,Yes
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Lunala ex,238,Crown,Psychic,Stage2,Cosmoem,Yes
+Celestial Guardians,A3,2025-04-30,155,"Solgaleo, Lunala",Solgaleo ex,239,Crown,Metal,Stage2,Cosmoem,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Petilil,1,One Diamond,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lilligant,2,One Diamond,Grass,Stage1,Petilil,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Rowlet,3,One Diamond,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Dartrix,4,Two Diamond,Grass,Stage1,Rowlet,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Decidueye,5,Three Diamond,Grass,Stage2,Dartrix,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Buzzwole ex,6,Four Diamond,Grass,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pheromosa,7,Two Diamond,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Kartana,8,One Diamond,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Blacephalon,9,Two Diamond,Fire,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Mantine,10,One Diamond,Water,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Carvanha,11,One Diamond,Water,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Sharpedo,12,Two Diamond,Water,Stage1,Carvanha,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Shinx,13,One Diamond,Lightning,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Luxio,14,One Diamond,Lightning,Stage1,Shinx,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Luxray,15,Three Diamond,Lightning,Stage2,Luxio,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Blitzle,16,One Diamond,Lightning,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Zebstrika,17,One Diamond,Lightning,Stage1,Blitzle,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Emolga,18,One Diamond,Lightning,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Tapu Koko ex,19,Four Diamond,Lightning,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Xurkitree,20,Two Diamond,Lightning,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Zeraora,21,Three Diamond,Lightning,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Clefairy,22,One Diamond,Psychic,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Clefable,23,Two Diamond,Psychic,Stage1,Clefairy,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Phantump,24,One Diamond,Psychic,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Trevenant,25,One Diamond,Psychic,Stage1,Phantump,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Morelull,26,One Diamond,Psychic,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Shiinotic,27,Three Diamond,Psychic,Stage1,Morelull,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Meditite,28,One Diamond,Fighting,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Medicham,29,Two Diamond,Fighting,Stage1,Meditite,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Baltoy,30,One Diamond,Fighting,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Claydol,31,Two Diamond,Fighting,Stage1,Baltoy,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Rockruff,32,One Diamond,Fighting,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lycanroc ex,33,Four Diamond,Fighting,Stage1,Rockruff,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Passimian,34,One Diamond,Fighting,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Sandygast,35,One Diamond,Fighting,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Palossand,36,Two Diamond,Fighting,Stage1,Sandygast,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Meowth,37,One Diamond,Darkness,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Persian,38,Two Diamond,Darkness,Stage1,Alolan Meowth,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Sandile,39,One Diamond,Darkness,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Krokorok,40,One Diamond,Darkness,Stage1,Sandile,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Krookodile,41,Two Diamond,Darkness,Stage2,Krokorok,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Nihilego,42,Three Diamond,Darkness,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Guzzlord ex,43,Four Diamond,Darkness,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Poipole,44,One Diamond,Darkness,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Naganadel,45,Three Diamond,Darkness,Stage1,Poipole,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Diglett,46,One Diamond,Metal,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Dugtrio ex,47,Four Diamond,Metal,Stage1,Alolan Diglett,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Aron,48,One Diamond,Metal,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lairon,49,One Diamond,Metal,Stage1,Aron,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Aggron,50,Two Diamond,Metal,Stage2,Lairon,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Ferroseed,51,One Diamond,Metal,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Ferrothorn,52,Two Diamond,Metal,Stage1,Ferroseed,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Stakataka,53,Two Diamond,Metal,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lillipup,54,One Diamond,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Herdier,55,One Diamond,Colorless,Stage1,Lillipup,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Stoutland,56,Two Diamond,Colorless,Stage2,Herdier,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Stufful,57,One Diamond,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Bewear,58,Two Diamond,Colorless,Stage1,Stufful,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Oranguru,59,One Diamond,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Type: Null,60,Two Diamond,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Silvally,61,Three Diamond,Colorless,Stage1,Type: Null,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Celesteela,62,Three Diamond,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Beast Wall,63,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Repel,64,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Electrical Cord,65,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Beastite,66,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Gladion,67,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Looker,68,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lusamine,69,Two Diamond,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Rowlet,70,One Star,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pheromosa,71,One Star,Grass,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Blacephalon,72,One Star,Fire,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Meowth,73,One Star,Darkness,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Silvally,74,One Star,Colorless,Stage1,Type: Null,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Celesteela,75,One Star,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Buzzwole ex,76,Two Star,Grass,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Tapu Koko ex,77,Two Star,Lightning,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lycanroc ex,78,Two Star,Fighting,Stage1,Rockruff,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Guzzlord ex,79,Two Star,Darkness,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Dugtrio ex,80,Two Star,Metal,Stage1,Alolan Diglett,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Gladion,81,Two Star,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Looker,82,Two Star,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lusamine,83,Two Star,Trainer,,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Tapu Koko ex,84,Two Star,Lightning,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Lycanroc ex,85,Two Star,Fighting,Stage1,Rockruff,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Guzzlord ex,86,Two Star,Darkness,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Alolan Dugtrio ex,87,Two Star,Metal,Stage1,Alolan Diglett,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Buzzwole ex,88,Three Star,Grass,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Growlithe,89,One Shiny,Fire,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Arcanine,90,One Shiny,Fire,Stage1,Growlithe,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Froakie,91,One Shiny,Water,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Frogadier,92,One Shiny,Water,Stage1,Froakie,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Greninja,93,One Shiny,Water,Stage2,Frogadier,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Jynx,94,One Shiny,Psychic,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pidgey,95,One Shiny,Colorless,Basic,,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pidgeotto,96,One Shiny,Colorless,Stage1,Pidgey,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pidgeot,97,One Shiny,Colorless,Stage2,Pidgeotto,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Aerodactyl,98,One Shiny,Colorless,Stage1,Old Amber,No
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Celebi ex,99,Two Shiny,Grass,Basic,,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Arcanine ex,100,Two Shiny,Fire,Stage1,Growlithe,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Aerodactyl ex,101,Two Shiny,Fighting,Stage1,Old Amber,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Pidgeot ex,102,Two Shiny,Colorless,Stage2,Pidgeotto,Yes
+Extradimensional Crisis,A3a,2025-05-29,69,Extradimensional Crisis,Nihilego,103,Crown,Darkness,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Tropius,1,Two Diamond,Grass,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Leafeon,2,Three Diamond,Grass,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Bounsweet,3,One Diamond,Grass,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Steenee,4,One Diamond,Grass,Stage1,Bounsweet,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Tsareena,5,Two Diamond,Grass,Stage2,Steenee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Applin,6,One Diamond,Grass,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Appletun,7,Two Diamond,Grass,Stage1,Applin,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Flareon,8,Three Diamond,Fire,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Flareon ex,9,Four Diamond,Fire,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Torkoal,10,One Diamond,Fire,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Litten,11,One Diamond,Fire,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Torracat,12,One Diamond,Fire,Stage1,Litten,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Incineroar,13,Two Diamond,Fire,Stage2,Torracat,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Salandit,14,One Diamond,Fire,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Salazzle,15,Two Diamond,Fire,Stage1,Salandit,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Vaporeon,16,Three Diamond,Water,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Glaceon,17,Three Diamond,Water,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Vanillite,18,One Diamond,Water,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Vanillish,19,One Diamond,Water,Stage1,Vanillite,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Vanilluxe,20,Two Diamond,Water,Stage2,Vanillish,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Alomomola,21,One Diamond,Water,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Popplio,22,One Diamond,Water,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Brionne,23,One Diamond,Water,Stage1,Popplio,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Primarina ex,24,Four Diamond,Water,Stage2,Brionne,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Jolteon,25,Three Diamond,Lightning,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Joltik,26,One Diamond,Lightning,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Galvantula,27,Two Diamond,Lightning,Stage1,Joltik,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Espeon,28,Three Diamond,Psychic,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Woobat,29,One Diamond,Psychic,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Swoobat,30,Two Diamond,Psychic,Stage1,Woobat,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Swirlix,31,One Diamond,Psychic,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Slurpuff,32,Two Diamond,Psychic,Stage1,Swirlix,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sylveon,33,Three Diamond,Psychic,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sylveon ex,34,Four Diamond,Psychic,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Mimikyu,35,Two Diamond,Psychic,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Milcery,36,One Diamond,Psychic,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Alcremie,37,Two Diamond,Psychic,Stage1,Milcery,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Barboach,38,One Diamond,Fighting,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Whiscash,39,Two Diamond,Fighting,Stage1,Barboach,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Mienfoo,40,One Diamond,Fighting,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Mienshao,41,Two Diamond,Fighting,Stage1,Mienfoo,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Carbink,42,One Diamond,Fighting,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Umbreon,43,Three Diamond,Darkness,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sableye,44,One Diamond,Darkness,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Purrloin,45,One Diamond,Darkness,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Liepard,46,Two Diamond,Darkness,Stage1,Purrloin,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Mawile,47,One Diamond,Metal,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Togedemaru,48,One Diamond,Metal,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Meltan,49,One Diamond,Metal,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Melmetal,50,Two Diamond,Metal,Stage1,Meltan,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Dratini,51,One Diamond,Dragon,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Dragonair,52,One Diamond,Dragon,Stage1,Dratini,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Dragonite ex,53,Four Diamond,Dragon,Stage2,Dragonair,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Drampa,54,Two Diamond,Dragon,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee,55,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee ex,56,Four Diamond,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Snorlax ex,57,Four Diamond,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Aipom,58,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Ambipom,59,Two Diamond,Colorless,Stage1,Aipom,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Chatot,60,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Audino,61,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Minccino,62,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Cinccino,63,Two Diamond,Colorless,Stage1,Minccino,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Skwovet,64,One Diamond,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Greedent,65,Two Diamond,Colorless,Stage1,Skwovet,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee Bag,66,Two Diamond,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Leftovers,67,Two Diamond,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Hau,68,Two Diamond,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Penny,69,Two Diamond,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Leafeon,70,One Star,Grass,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Flareon,71,One Star,Fire,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Vaporeon,72,One Star,Water,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Glaceon,73,One Star,Water,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Jolteon,74,One Star,Lightning,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Espeon,75,One Star,Psychic,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sylveon,76,One Star,Psychic,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Umbreon,77,One Star,Darkness,Stage1,Eevee,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee,78,One Star,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Flareon ex,79,Two Star,Fire,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Primarina ex,80,Two Star,Water,Stage2,Brionne,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sylveon ex,81,Two Star,Psychic,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Dragonite ex,82,Two Star,Dragon,Stage2,Dragonair,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee ex,83,Two Star,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Snorlax ex,84,Two Star,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Hau,85,Two Star,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Penny,86,Two Star,Trainer,,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Flareon ex,87,Two Star,Fire,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Primarina ex,88,Two Star,Water,Stage2,Brionne,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Sylveon ex,89,Two Star,Psychic,Stage1,Eevee,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Dragonite ex,90,Two Star,Dragon,Stage2,Dragonair,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Snorlax ex,91,Two Star,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee ex,92,Three Star,Colorless,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Pinsir,93,One Shiny,Grass,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Lapras,94,One Shiny,Water,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Voltorb,95,One Shiny,Lightning,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Electrode,96,One Shiny,Lightning,Stage1,Voltorb,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Ralts,97,One Shiny,Psychic,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Kirlia,98,One Shiny,Psychic,Stage1,Ralts,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Gardevoir,99,One Shiny,Psychic,Stage2,Kirlia,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Ekans,100,One Shiny,Darkness,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Arbok,101,One Shiny,Darkness,Stage1,Ekans,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Farfetch'd,102,One Shiny,Colorless,Basic,,No
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Moltres ex,103,Two Shiny,Fire,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Articuno ex,104,Two Shiny,Water,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Zapdos ex,105,Two Shiny,Lightning,Basic,,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Gallade ex,106,Two Shiny,Fighting,Stage2,Kirlia,Yes
+Eevee Grove,A3b,2025-06-26,69,Eevee Grove,Eevee Bag,107,Crown,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Oddish,1,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Gloom,2,Two Diamond,Grass,Stage1,Oddish,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Bellossom,3,Three Diamond,Grass,Stage2,Gloom,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Tangela,4,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Tangrowth,5,Three Diamond,Grass,Stage1,Tangela,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Scyther,6,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Pinsir,7,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Chikorita,8,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Bayleef,9,Two Diamond,Grass,Stage1,Chikorita,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Meganium,10,Three Diamond,Grass,Stage2,Bayleef,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Ledyba,11,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Ledian,12,One Diamond,Grass,Stage1,Ledyba,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Hoppip,13,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Skiploom,14,Two Diamond,Grass,Stage1,Hoppip,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Jumpluff,15,Three Diamond,Grass,Stage2,Skiploom,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Sunkern,16,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Sunflora,17,Two Diamond,Grass,Stage1,Sunkern,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Yanma,18,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Yanmega,19,Two Diamond,Grass,Stage1,Yanma,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Pineco,20,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Shuckle ex,21,Four Diamond,Grass,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Heracross,22,Three Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Cherubi,23,One Diamond,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Cherrim,24,Two Diamond,Grass,Stage1,Cherubi,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Vulpix,25,One Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Ninetales,26,Three Diamond,Fire,Stage1,Vulpix,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Cyndaquil,27,One Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Quilava,28,Two Diamond,Fire,Stage1,Cyndaquil,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Typhlosion,29,Three Diamond,Fire,Stage2,Quilava,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Slugma,30,One Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Magcargo,31,Two Diamond,Fire,Stage1,Slugma,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Magby,32,Three Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Entei,33,Three Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ho-Oh ex,34,Four Diamond,Fire,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Darumaka,35,One Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Darmanitan,36,Two Diamond,Fire,Stage1,Darumaka,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Heatmor,37,One Diamond,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Poliwag,38,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Poliwhirl,39,Two Diamond,Water,Stage1,Poliwag,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Politoed,40,Three Diamond,Water,Stage2,Poliwhirl,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Horsea,41,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Seadra,42,Two Diamond,Water,Stage1,Horsea,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Kingdra ex,43,Four Diamond,Water,Stage2,Seadra,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Magikarp,44,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Gyarados,45,Three Diamond,Water,Stage1,Magikarp,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Totodile,46,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Croconaw,47,Two Diamond,Water,Stage1,Totodile,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Feraligatr,48,Three Diamond,Water,Stage2,Croconaw,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Marill,49,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Azumarill,50,Two Diamond,Water,Stage1,Marill,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Wooper,51,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Quagsire,52,Two Diamond,Water,Stage1,Wooper,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Qwilfish,53,Two Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Corsola,54,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Remoraid,55,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Octillery,56,Three Diamond,Water,Stage1,Remoraid,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Delibird,57,Two Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Mantine,58,Two Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Suicune,59,Three Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Corphish,60,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Crawdaunt,61,Three Diamond,Water,Stage1,Corphish,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ducklett,62,One Diamond,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Swanna,63,Two Diamond,Water,Stage1,Ducklett,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Chinchou,64,One Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lanturn ex,65,Four Diamond,Lightning,Stage1,Chinchou,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Pichu,66,Three Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Mareep,67,One Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Flaaffy,68,Two Diamond,Lightning,Stage1,Mareep,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Ampharos,69,Three Diamond,Lightning,Stage2,Flaaffy,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Elekid,70,Three Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Raikou,71,Three Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Emolga,72,One Diamond,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Slowpoke,73,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Slowking,74,Two Diamond,Psychic,Stage1,Slowpoke,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Smoochum,75,Three Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Jynx,76,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Cleffa,77,Three Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Togepi,78,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Togetic,79,Two Diamond,Psychic,Stage1,Togepi,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Togekiss,80,Three Diamond,Psychic,Stage2,Togetic,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Natu,81,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Xatu,82,Three Diamond,Psychic,Stage1,Natu,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Espeon ex,83,Four Diamond,Psychic,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Unown,84,Three Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Unown,85,Three Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Wobbuffet,86,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Girafarig,87,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Snubbull,88,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Granbull,89,Two Diamond,Psychic,Stage1,Snubbull,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Munna,90,One Diamond,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Musharna,91,Two Diamond,Psychic,Stage1,Munna,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Onix,92,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Sudowoodo,93,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Gligar,94,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Gliscor,95,Two Diamond,Fighting,Stage1,Gligar,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Swinub,96,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Piloswine,97,Two Diamond,Fighting,Stage1,Swinub,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Mamoswine,98,Three Diamond,Fighting,Stage2,Piloswine,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Phanpy,99,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Donphan ex,100,Four Diamond,Fighting,Stage1,Phanpy,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Tyrogue,101,Three Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Hitmontop,102,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Larvitar,103,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Pupitar,104,Two Diamond,Fighting,Stage1,Larvitar,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Binacle,105,One Diamond,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Barbaracle,106,Two Diamond,Fighting,Stage1,Binacle,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Zubat,107,One Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Golbat,108,Two Diamond,Darkness,Stage1,Zubat,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Crobat ex,109,Four Diamond,Darkness,Stage2,Golbat,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Spinarak,110,One Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ariados,111,Two Diamond,Darkness,Stage1,Spinarak,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Umbreon ex,112,Four Diamond,Darkness,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Murkrow,113,One Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Honchkrow,114,Two Diamond,Darkness,Stage1,Murkrow,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Sneasel,115,One Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Weavile,116,Two Diamond,Darkness,Stage1,Sneasel,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Houndour,117,One Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Houndoom,118,Two Diamond,Darkness,Stage1,Houndour,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Tyranitar,119,Three Diamond,Darkness,Stage2,Pupitar,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Absol,120,Two Diamond,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Forretress,121,Two Diamond,Metal,Stage1,Pineco,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Steelix,122,Three Diamond,Metal,Stage1,Onix,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Scizor,123,Three Diamond,Metal,Stage1,Scyther,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Skarmory ex,124,Four Diamond,Metal,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Mawile,125,One Diamond,Metal,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Klink,126,One Diamond,Metal,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Klang,127,Two Diamond,Metal,Stage1,Klink,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Klinklang,128,Three Diamond,Metal,Stage2,Klang,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Spearow,129,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Fearow,130,One Diamond,Colorless,Stage1,Spearow,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Chansey,131,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Blissey,132,Three Diamond,Colorless,Stage1,Chansey,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Kangaskhan,133,Three Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Eevee,134,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Porygon,135,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Porygon2,136,Two Diamond,Colorless,Stage1,Porygon,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Porygon-Z,137,Three Diamond,Colorless,Stage2,Porygon2,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Sentret,138,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Furret,139,One Diamond,Colorless,Stage1,Sentret,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Hoothoot,140,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Noctowl,141,One Diamond,Colorless,Stage1,Hoothoot,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Aipom,142,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Ambipom,143,One Diamond,Colorless,Stage1,Aipom,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Dunsparce,144,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Teddiursa,145,One Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ursaring,146,Two Diamond,Colorless,Stage1,Teddiursa,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Stantler,147,Two Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Smeargle,148,Two Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lugia ex,149,Four Diamond,Colorless,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Bouffalant,150,Two Diamond,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Elemental Switch,151,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Squirt Bottle,152,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Steel Apron,153,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Dark Pendant,154,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Rescue Scarf,155,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Will,156,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lyra,157,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Silver,158,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Fisher,159,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Jasmine,160,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Hiker,161,Two Diamond,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Chikorita,162,One Star,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Bellossom,163,One Star,Grass,Stage2,Gloom,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Heracross,164,One Star,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Cyndaquil,165,One Star,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Magby,166,One Star,Fire,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Totodile,167,One Star,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Qwilfish,168,One Star,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Octillery,169,One Star,Water,Stage1,Remoraid,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Delibird,170,One Star,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Pichu,171,One Star,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Ampharos,172,One Star,Lightning,Stage2,Flaaffy,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Togepi,173,One Star,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Xatu,174,One Star,Psychic,Stage1,Natu,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Wobbuffet,175,One Star,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Gligar,176,One Star,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Spinarak,177,One Star,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Murkrow,178,One Star,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Tyranitar,179,One Star,Darkness,Stage2,Pupitar,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Scizor,180,One Star,Metal,Stage1,Scyther,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Sentret,181,One Star,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Hoothoot,182,One Star,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Stantler,183,One Star,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Smeargle,184,One Star,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Blissey,185,One Star,Colorless,Stage1,Chansey,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Shuckle ex,186,Two Star,Grass,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ho-Oh ex,187,Two Star,Fire,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Kingdra ex,188,Two Star,Water,Stage2,Seadra,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lanturn ex,189,Two Star,Lightning,Stage1,Chinchou,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Espeon ex,190,Two Star,Psychic,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Donphan ex,191,Two Star,Fighting,Stage1,Phanpy,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Crobat ex,192,Two Star,Darkness,Stage2,Golbat,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Umbreon ex,193,Two Star,Darkness,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Skarmory ex,194,Two Star,Metal,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lugia ex,195,Two Star,Colorless,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Will,196,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lyra,197,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Silver,198,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Fisher,199,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Jasmine,200,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Hiker,201,Two Star,Trainer,,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Shuckle ex,202,Two Star,Grass,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Kingdra ex,203,Two Star,Water,Stage2,Seadra,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lanturn ex,204,Two Star,Lightning,Stage1,Chinchou,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Espeon ex,205,Two Star,Psychic,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Donphan ex,206,Two Star,Fighting,Stage1,Phanpy,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Crobat ex,207,Two Star,Darkness,Stage2,Golbat,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Umbreon ex,208,Two Star,Darkness,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Skarmory ex,209,Two Star,Metal,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Ho-Oh ex,210,Three Star,Fire,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Lugia ex,211,Three Star,Colorless,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Yanma,212,One Shiny,Grass,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Flareon,213,One Shiny,Fire,Stage1,Eevee,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Magikarp,214,One Shiny,Water,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Gyarados,215,One Shiny,Water,Stage1,Magikarp,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Vaporeon,216,One Shiny,Water,Stage1,Eevee,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Magnemite,217,One Shiny,Lightning,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Magneton,218,One Shiny,Lightning,Stage1,Magnemite,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Jolteon,219,One Shiny,Lightning,Stage1,Eevee,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Misdreavus,220,One Shiny,Psychic,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Mankey,221,One Shiny,Fighting,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Primeape,222,One Shiny,Fighting,Stage1,Mankey,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Nidoran♀,223,One Shiny,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Nidorina,224,One Shiny,Darkness,Stage1,Nidoran♀,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Nidoqueen,225,One Shiny,Darkness,Stage2,Nidorina,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Nidoran♂,226,One Shiny,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Nidorino,227,One Shiny,Darkness,Stage1,Nidoran♂,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Nidoking,228,One Shiny,Darkness,Stage2,Nidorino,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Sneasel,229,One Shiny,Darkness,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Lickitung,230,One Shiny,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Eevee,231,One Shiny,Colorless,Basic,,No
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Yanmega ex,232,Two Shiny,Grass,Stage1,Yanma,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Leafeon ex,233,Two Shiny,Grass,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Gyarados ex,234,Two Shiny,Water,Stage1,Magikarp,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Glaceon ex,235,Two Shiny,Water,Stage1,Eevee,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Pachirisu ex,236,Two Shiny,Lightning,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Mismagius ex,237,Two Shiny,Psychic,Stage1,Misdreavus,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Lugia,Weavile ex,238,Two Shiny,Darkness,Stage1,Sneasel,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,Ho-Oh,Lickilicky ex,239,Two Shiny,Colorless,Stage1,Lickitung,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Ho-Oh ex,240,Crown,Fire,Basic,,Yes
+Wisdom of Sea and Sky,A4,2025-07-30,161,"Lugia, Ho-Oh",Lugia ex,241,Crown,Colorless,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Hoppip,1,One Diamond,Grass,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Skiploom,2,Two Diamond,Grass,Stage1,Hoppip,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Jumpluff ex,3,Four Diamond,Grass,Stage2,Skiploom,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Sunkern,4,One Diamond,Grass,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Sunflora,5,Two Diamond,Grass,Stage1,Sunkern,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Celebi,6,Three Diamond,Grass,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Durant,7,One Diamond,Grass,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Slugma,8,One Diamond,Fire,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Magcargo,9,Two Diamond,Fire,Stage1,Slugma,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Entei ex,10,Four Diamond,Fire,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Fletchinder,11,One Diamond,Fire,Stage1,Fletchling,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Talonflame,12,Two Diamond,Fire,Stage2,Fletchinder,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Poliwag,13,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Poliwhirl,14,Two Diamond,Water,Stage1,Poliwag,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Tentacool,15,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Tentacruel,16,Two Diamond,Water,Stage1,Tentacool,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Slowpoke,17,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Slowking,18,Two Diamond,Water,Stage1,Slowpoke,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Jynx,19,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Suicune ex,20,Four Diamond,Water,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Feebas,21,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Milotic,22,Three Diamond,Water,Stage1,Feebas,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Mantyke,23,Three Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Cryogonal,24,One Diamond,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Raikou ex,25,Four Diamond,Lightning,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Tynamo,26,One Diamond,Lightning,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Eelektrik,27,One Diamond,Lightning,Stage1,Tynamo,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Eelektross,28,Two Diamond,Lightning,Stage2,Eelektrik,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Stunfisk,29,One Diamond,Lightning,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Yamper,30,One Diamond,Lightning,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Boltund,31,Three Diamond,Lightning,Stage1,Yamper,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Misdreavus,32,One Diamond,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Mismagius,33,Two Diamond,Psychic,Stage1,Misdreavus,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Galarian Corsola,34,One Diamond,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Galarian Cursola,35,Three Diamond,Psychic,Stage1,Galarian Corsola,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Latias,36,Three Diamond,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Latios,37,Three Diamond,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Frillish,38,One Diamond,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Jellicent,39,Two Diamond,Psychic,Stage1,Frillish,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Diglett,40,One Diamond,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Dugtrio,41,Two Diamond,Fighting,Stage1,Diglett,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Poliwrath ex,42,Four Diamond,Fighting,Stage2,Poliwhirl,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Phanpy,43,One Diamond,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Donphan,44,Two Diamond,Fighting,Stage1,Phanpy,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Relicanth,45,One Diamond,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Dwebble,46,One Diamond,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Crustle,47,Two Diamond,Fighting,Stage1,Dwebble,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Seviper,48,One Diamond,Darkness,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Zorua,49,One Diamond,Darkness,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Zoroark,50,Three Diamond,Darkness,Stage1,Zorua,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Inkay,51,One Diamond,Darkness,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Malamar,52,Two Diamond,Darkness,Stage1,Inkay,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Skrelp,53,One Diamond,Darkness,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Dragalge,54,One Diamond,Darkness,Stage1,Skrelp,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Altaria,55,Three Diamond,Dragon,Stage1,Swablu,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Farfetch'd,56,One Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Lickitung,57,One Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Lickilicky,58,Two Diamond,Colorless,Stage1,Lickitung,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Igglybuff,59,Three Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Teddiursa,60,One Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Ursaring,61,Two Diamond,Colorless,Stage1,Teddiursa,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Miltank,62,Two Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Azurill,63,Three Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Swablu,64,One Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Zangoose,65,Two Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Fletchling,66,One Diamond,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Inflatable Boat,67,Two Diamond,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Memory Light,68,Two Diamond,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Whitney,69,Two Diamond,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Traveling Merchant,70,Two Diamond,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Morty,71,Two Diamond,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Milotic,72,One Star,Water,Stage1,Feebas,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Stunfisk,73,One Star,Lightning,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Yamper,74,One Star,Lightning,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Latios,75,One Star,Psychic,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Phanpy,76,One Star,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Azurill,77,One Star,Colorless,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Jumpluff ex,78,Two Star,Grass,Stage2,Skiploom,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Entei ex,79,Two Star,Fire,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Suicune ex,80,Two Star,Water,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Raikou ex,81,Two Star,Lightning,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Poliwrath ex,82,Two Star,Fighting,Stage2,Poliwhirl,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Whitney,83,Two Star,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Traveling Merchant,84,Two Star,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Morty,85,Two Star,Trainer,,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Jumpluff ex,86,Two Star,Grass,Stage2,Skiploom,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Entei ex,87,Two Star,Fire,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Raikou ex,88,Two Star,Lightning,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Poliwrath ex,89,Two Star,Fighting,Stage2,Poliwhirl,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Suicune ex,90,Three Star,Water,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Chimchar,91,One Shiny,Fire,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Monferno,92,One Shiny,Fire,Stage1,Chimchar,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Psyduck,93,One Shiny,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Golduck,94,One Shiny,Water,Stage1,Psyduck,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Krabby,95,One Shiny,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Kingler,96,One Shiny,Water,Stage1,Krabby,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Pyukumuku,97,One Shiny,Water,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Gible,98,One Shiny,Fighting,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Gabite,99,One Shiny,Fighting,Stage1,Gible,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Paldean Wooper,100,One Shiny,Darkness,Basic,,No
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Infernape ex,101,Two Shiny,Fire,Stage2,Monferno,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Mew ex,102,Two Shiny,Psychic,Basic,,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Garchomp ex,103,Two Shiny,Fighting,Stage2,Gabite,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Paldean Clodsire ex,104,Two Shiny,Darkness,Stage1,Paldean Wooper,Yes
+Secluded Springs,A4a,2025-08-28,71,Suicune themed booster pack,Mantyke,105,Crown,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Potion,1,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",X Speed,2,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Hand Scope,3,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Pokédex,4,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Poké Ball,5,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Red Card,6,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Professor's Research,7,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Pokédex,8,,Trainer,,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Pikachu,9,,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Mewtwo,10,,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Chansey,11,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Meowth,12,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 1,Butterfree,13,,Grass,Stage2,Metapod,No
+Promos-A,P-A,2024-10-30,100,Vol. 1,Lapras ex,14,,Water,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,Vol. 1,Pikachu,15,,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 1,Clefairy,16,,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 1,Mankey,17,,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 2,Venusaur,18,,Grass,Stage2,Ivysaur,No
+Promos-A,P-A,2024-10-30,100,Vol. 2,Greninja,19,,Water,Stage2,Frogadier,No
+Promos-A,P-A,2024-10-30,100,Vol. 2,Haunter,20,,Psychic,Stage1,Gastly,No
+Promos-A,P-A,2024-10-30,100,Vol. 2,Onix,21,,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 2,Jigglypuff,22,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Bulbasaur,23,,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Magnemite,24,,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Moltres ex,25,,Fire,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Pikachu,26,,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 3,Snivy,27,,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 3,Volcarona,28,,Fire,Stage1,Larvesta,No
+Promos-A,P-A,2024-10-30,100,Vol. 3,Blastoise,29,,Water,Stage2,Wartortle,No
+Promos-A,P-A,2024-10-30,100,Vol. 3,Eevee,30,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 3,Cinccino,31,,Colorless,Stage1,Minccino,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Charmander,32,,Fire,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Squirtle,33,,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Piplup,34,,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 4,Turtwig,35,,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 4,Electivire,36,,Lightning,Stage1,Electabuzz,No
+Promos-A,P-A,2024-10-30,100,Vol. 4,Cresselia ex,37,,Psychic,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,Vol. 4,Misdreavus,38,,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 4,Skarmory,39,,Metal,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Chimchar,40,,Fire,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Togepi,41,,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Darkrai ex,42,,Darkness,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,Vol. 5,Cherrim,43,,Grass,Stage1,Cherubi,No
+Promos-A,P-A,2024-10-30,100,Vol. 5,Raichu,44,,Lightning,Stage1,Pikachu,No
+Promos-A,P-A,2024-10-30,100,Vol. 5,Nosepass,45,,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 5,Gible,46,,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 5,Staraptor,47,,Colorless,Stage2,Staravia,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Manaphy,48,,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Snorlax,49,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Mewtwo ex,50,,Psychic,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Cyclizar,51,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Sprigatito,52,,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 6,Floatzel,53,,Water,Stage1,Buizel,No
+Promos-A,P-A,2024-10-30,100,Vol. 6,Pawmot,54,,Lightning,Stage2,Pawmo,No
+Promos-A,P-A,2024-10-30,100,Vol. 6,Machamp,55,,Fighting,Stage2,Machoke,No
+Promos-A,P-A,2024-10-30,100,Vol. 6,Ekans,56,,Darkness,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 6,Bidoof,57,,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Pachirisu,58,,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Riolu,59,,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 7,Exeggcute,60,One Diamond,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 7,Froakie,61,One Diamond,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 7,Farfetch'd,62,One Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 7,Rayquaza,63,Three Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 7,Rayquaza ex,64,Four Diamond,Colorless,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Rayquaza ex,65,Two Star,Colorless,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Mimikyu,66,One Star,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Cosmog,67,Three Diamond,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Lycanroc,68,Three Diamond,Fighting,Stage1,Rockruff,No
+Promos-A,P-A,2024-10-30,100,Vol. 8,Alolan Exeggutor,69,Three Diamond,Grass,Stage1,Exeggcute,No
+Promos-A,P-A,2024-10-30,100,Vol. 8,Alolan Ninetales,70,One Star,Water,Stage1,Alolan Vulpix,No
+Promos-A,P-A,2024-10-30,100,Vol. 8,Crabrawler,71,One Diamond,Fighting,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 8,Alolan Grimer,72,One Diamond,Darkness,Basic,,No
+Promos-A,P-A,2024-10-30,100,Vol. 8,Toucannon,73,One Diamond,Colorless,Stage2,Trumbeak,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Zeraora,74,One Star,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Kartana,75,One Diamond,Grass,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Blacephalon,76,,Fire,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Xurkitree,77,One Diamond,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Dawn Wings Necrozma,78,Three Diamond,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Dusk Mane Necrozma,79,Three Diamond,Metal,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Stakataka,80,One Diamond,Metal,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Ultra Necrozma ex,81,Four Diamond,Dragon,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Poipole,82,Three Diamond,Darkness,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Stufful,83,Three Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Tapu Koko ex,84,Four Diamond,Lightning,Basic,,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Vanillite,85,One Diamond,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Jolteon,86,Three Diamond,Lightning,Stage1,Eevee,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Alcremie,87,One Star,Psychic,Stage1,Milcery,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Dragonair,88,One Diamond,Dragon,Stage1,Dratini,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Audino,89,One Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Togedemaru,90,Three Diamond,Metal,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Greedent,91,Three Diamond,Colorless,Stage1,Skwovet,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Eevee,92,Three Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Cleffa,93,One Star,Psychic,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Horsea,94,One Diamond,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Chinchou,95,One Diamond,Lightning,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Houndoom,96,One Diamond,Darkness,Stage1,Houndour,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Kangaskhan,97,Three Diamond,Colorless,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Blissey ex,98,Four Diamond,Colorless,Stage1,Chansey,Yes
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Marill,99,Three Diamond,Water,Basic,,No
+Promos-A,P-A,2024-10-30,100,"Vol. 1, Vol. 2, Vol. 3, Vol. 4, Vol. 5, Vol. 6, Vol. 7, Vol. 8",Weavile,100,Three Diamond,Darkness,Stage1,Sneasel,No

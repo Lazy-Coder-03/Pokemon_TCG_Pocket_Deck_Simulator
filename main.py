@@ -1,0 +1,770 @@
+import random
+import csv
+from collections import Counter
+import re
+import pandas as pd
+
+# =============================================================================
+# Card Data and Deck Parsing
+# =============================================================================
+
+# Global dictionary to store card data from the CSV
+ALL_CARD_DATA = {}
+
+# Map CSV types to internal types
+CARD_TYPE_MAPPING = {
+    'Metal': 'pokemon',
+    'Dragon': 'pokemon',
+    'Fire': 'pokemon',
+    'Trainer': 'trainer',
+    'Lightning': 'pokemon',
+    'Darkness': 'pokemon',
+    'Water': 'pokemon',
+    'Grass': 'pokemon',
+    'Psychic': 'pokemon',
+    'Colorless': 'pokemon',
+    'Fighting': 'pokemon'
+}
+
+def load_card_data(filename="ALL_SETS.csv"):
+    """Loads card data from the provided CSV file into a global dictionary."""
+    global ALL_CARD_DATA
+    try:
+        df = pd.read_csv(filename)
+        for _, row in df.iterrows():
+            card_key = (
+                str(row['card_name']).lower().strip(),
+                str(row.get('set_code','')).lower().strip(),
+                str(row['card_number']).strip()
+            )
+            ALL_CARD_DATA[card_key] = {
+                'card_type': CARD_TYPE_MAPPING.get(str(row['card_type']).strip(), str(row['card_type']).lower().strip()),
+                'pokemon_stage': str(row['pokemon_stage']).strip().lower(),
+                'ex': str(row['ex']).strip().lower() == 'yes',
+                'card_name': str(row['card_name']).strip().lower(),
+                'evolve_from': str(row.get('evolves_from', '')).strip().lower() if pd.notna(row.get('evolves_from', '')) else '',
+                'rarity': str(row.get('rarity', '')).strip().lower()
+            }
+    except FileNotFoundError:
+        print(f"Error: The file {filename} was not found.")
+        return False
+    except Exception as e:
+        print(f"Error loading card data: {e}")
+        return False
+    return True
+
+def get_card_info(card_string: str):
+    """
+    Parses a single card string and returns its properties from the dataset.
+    e.g., "Froakie A1 87" -> {'card_type': 'pokemon', 'pokemon_stage': 'basic', 'ex': False}
+    """
+    parts = re.split(r'(\s+)', card_string.strip())
+    name_parts, set_code, card_number = [], None, None
+    
+    for part in reversed(parts):
+        if not part.isspace():
+            if re.match(r'^[a-zA-Z0-9-]+\s*$', part) and card_number is None:
+                card_number = part.strip()
+            elif re.match(r'^[a-zA-Z0-9-]+\s*$', part) and set_code is None:
+                set_code = part.strip().lower()
+            else:
+                name_parts.insert(0, part)
+    
+    card_name = " ".join(name_parts).strip().lower()
+    card_key = (card_name, set_code, card_number)
+    card_info = ALL_CARD_DATA.get(card_key)
+    
+    if card_info:
+        return card_info
+    
+    # Fallback search
+    for key, info in ALL_CARD_DATA.items():
+        if key[0] == card_name and (key[1] == set_code or set_code is None):
+            return info
+    
+    print(f"Warning: Card '{card_name}' not found in data.")
+    return None
+
+def parse_decklist(decklist_text: str):
+    """
+    Parses the raw decklist text provided by the user into a list of card objects.
+    Each object contains the card name and its properties.
+    """
+    parsed_deck = []
+    lines = decklist_text.strip().split('\n')
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        
+        try:
+            count = int(parts[0])
+            card_string = " ".join(parts[1:])
+        except ValueError:
+            continue
+        
+        card_info = get_card_info(card_string)
+        if card_info:
+            for _ in range(count):
+                parsed_deck.append({
+                    'name': card_info.get('card_name', ''),
+                    'type': card_info['card_type'],
+                    'stage': card_info['pokemon_stage'],
+                    'ex': card_info['ex'],
+                    'evolve_from': card_info.get('evolve_from', ''),
+                    'rarity': card_info.get('rarity', '')
+                })
+    
+    return parsed_deck
+
+# =============================================================================
+# Helper Functions
+# =============================================================================
+
+def is_basic(card):
+    return card.get('type','').strip().lower() == 'pokemon' and card.get('stage','').strip().lower() == 'basic'
+
+def is_important(card):
+    return card.get('rarity', '').strip().lower() not in ["one diamond"]
+
+def is_stage1(card):
+    return card.get('stage','').strip().lower() == 'stage1'
+
+def is_stage2(card):
+    return card.get('stage','').strip().lower() == 'stage2'
+
+def is_supporter(card):
+    supporter_names = ["professor's research", "leaf", "iono", "dawn", "sabrina", "cyrus", "mars", "irida"]
+    return (card.get('type','').strip().lower() == 'trainer' and
+            any(s in card.get('name','').lower() for s in supporter_names))
+
+def is_professors_research(card):
+    return 'professor\'s research' in card.get('name','').lower()
+
+def is_pokeball(card):
+    return 'poké ball' in card.get('name','').lower() or 'poke ball' in card.get('name','').lower()
+
+def is_rare_candy(card):
+    return 'rare candy' in card.get('name','').lower()
+
+def is_iono(card):
+    return 'iono' in card.get('name','').lower()
+
+def is_legendary_beast_ex(card):
+    name_lower = card.get('name','').lower()
+    return 'raikou ex' in name_lower or 'entei ex' in name_lower or 'suicune ex' in name_lower
+
+def is_main_attacker(card, precomputed_main_attackers):
+    return card['name'] in precomputed_main_attackers
+
+# =============================================================================
+# Game Actions
+# =============================================================================
+
+def draw_from_deck(deck, hand, n):
+    """Draws cards from the deck, respecting hand limit."""
+    drawn = 0
+    for _ in range(n):
+        if deck and len(hand) < 10:
+            hand.append(deck.pop(0))
+            drawn += 1
+        else:
+            break
+    return drawn
+
+def place_basic_pokemon(hand, active_pokemon, bench, max_bench=3):
+    """Places basic Pokemon from hand onto the board."""
+    placed = []
+    # Place one basic in active if empty
+    if not active_pokemon:
+        for i, card in enumerate(hand):
+            if is_basic(card):
+                active_pokemon.append(hand.pop(i))
+                placed.append(("active", card['name']))
+                break
+    
+    # Place remaining basics on bench
+    i = 0
+    while i < len(hand) and len(bench) < max_bench:
+        if is_basic(hand[i]):
+            card = hand.pop(i)
+            bench.append(card)
+            placed.append(("bench", card['name']))
+        else:
+            i += 1
+    
+    return placed
+
+def try_play_supporter(hand, deck, supporter_used):
+    """Attempts to play a supporter card, prioritizing Professor's Research."""
+    if supporter_used[0]:
+        return False, None
+    
+    # Priority 1: Professor's Research
+    for i, card in enumerate(hand):
+        if is_professors_research(card):
+            hand.pop(i)
+            supporter_used[0] = True
+            hand_size_before = len(hand)
+            cards_drawn = draw_from_deck(deck, hand, 2)
+            drawn_cards = hand[hand_size_before:hand_size_before + cards_drawn]
+            drawn_names = [c['name'] for c in drawn_cards]
+            return True, f"Professor's Research (drew {cards_drawn} cards: {', '.join(drawn_names)})"
+    
+    # Priority 2: Iono
+    for i, card in enumerate(hand):
+        if is_iono(card):
+            hand.pop(i)
+            supporter_used[0] = True
+            # Shuffle hand back into deck and draw 5
+            hand_size = len(hand)
+            deck.extend(hand)
+            random.shuffle(deck)
+            hand.clear()
+            cards_drawn = draw_from_deck(deck, hand, 5)
+            drawn_names = [c['name'] for c in hand[:cards_drawn]]
+            return True, f"Iono (shuffled {hand_size} cards back, drew {cards_drawn}: {', '.join(drawn_names)})"
+    
+    # Priority 3: Any other supporter
+    for i, card in enumerate(hand):
+        if is_supporter(card):
+            hand.pop(i)
+            supporter_used[0] = True
+            return True, card['name']
+    
+    return False, None
+
+def try_play_pokeball(hand, deck):
+    """Attempts to play Poké Ball to search for a basic Pokemon."""
+    for i, card in enumerate(hand):
+        if is_pokeball(card):
+            hand.pop(i)
+            # Search for basic in deck
+            for j, deck_card in enumerate(deck):
+                if is_basic(deck_card):
+                    if len(hand) < 10:
+                        found_card = deck.pop(j)
+                        hand.append(found_card)
+                        return True, found_card['name']
+                    return True, "hand full"
+            return True, "no basics found"
+    return False, None
+
+def can_evolve(evo_card, pokemon_in_play):
+    """Check if an evolution card can be played."""
+    evolve_from = evo_card.get('evolve_from', '')
+    if not evolve_from:
+        return False
+    
+    # Special case for Eevee evolutions
+    if evolve_from == 'eevee':
+        valid_names = ['eevee', 'eevee ex']
+    else:
+        valid_names = [evolve_from]
+    
+    return any(p.get('name', '') in valid_names for p in pokemon_in_play)
+
+def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
+    """Attempts to evolve Pokemon on the board, prioritizing Rare Candy then Sylveon ex."""
+    # Evolution restriction: can only evolve after turn 2
+    if turn < 2:
+        return False, None
+    
+    evolved = False
+    pokemon_in_play = active_pokemon + bench
+    evolution_msgs = []
+    
+    # Priority 1: Rare Candy evolution
+    rare_candy_cards = [c for c in hand if is_rare_candy(c)]
+    stage2_cards = [c for c in hand if is_stage2(c)]
+    
+    if rare_candy_cards and stage2_cards:
+        for stage2_card in stage2_cards:
+            evolve_from_basic_name = get_evolves_from_chain(stage2_card['evolve_from'])
+            target = next((p for p in pokemon_in_play if p['name'] == evolve_from_basic_name), None)
+            if target:
+                rare_candy = rare_candy_cards.pop(0)
+                hand.remove(rare_candy)
+                hand.remove(stage2_card)
+                
+                location = "active" if target in active_pokemon else "bench"
+                if target in active_pokemon:
+                    active_pokemon.remove(target)
+                    active_pokemon.append(stage2_card)
+                else:
+                    bench.remove(target)
+                    bench.append(stage2_card)
+                
+                evolution_msgs.append(f"{target['name']} -> {stage2_card['name']} with Rare Candy in {location}")
+                evolved = True
+                pokemon_in_play = active_pokemon + bench
+                break
+    
+    # Priority 2: Sylveon ex evolution
+    sylveon_ex_card = next((c for c in hand if c['name'] == 'sylveon ex'), None)
+    if sylveon_ex_card:
+        eevee_target = next((p for p in pokemon_in_play if p['name'] == 'eevee' or p['name'] == 'eevee ex'), None)
+        if eevee_target:
+            hand.remove(sylveon_ex_card)
+            location = "active" if eevee_target in active_pokemon else "bench"
+            if eevee_target in active_pokemon:
+                active_pokemon.remove(eevee_target)
+                active_pokemon.append(sylveon_ex_card)
+            else:
+                bench.remove(eevee_target)
+                bench.append(sylveon_ex_card)
+            
+            evolution_msgs.append(f"{eevee_target['name']} -> {sylveon_ex_card['name']} in {location}\n")
+            cards_drawn = draw_from_deck(deck, hand, 2)
+            evolution_msgs.append(f"Sylveon ex drew {cards_drawn} cards\n")
+            evolution_msgs.append(f"Hand after drawing:[{', '.join(c['name'] for c in hand)}]\n")
+            evolved = True
+            pokemon_in_play = active_pokemon + bench
+            
+    # Priority 3: Any other regular evolutions
+    while True:
+        found_evolution = False
+        for i, card in enumerate(hand):
+            # Skip Sylveon ex since it was handled
+            if card['name'] == 'sylveon ex':
+                continue
+                
+            if (is_stage1(card) or is_stage2(card)) and can_evolve(card, pokemon_in_play):
+                evolve_from = card.get('evolve_from', '')
+                valid_names = ['eevee', 'eevee ex'] if evolve_from == 'eevee' else [evolve_from]
+                for target in pokemon_in_play:
+                    if target.get('name', '') in valid_names:
+                        evo_card = hand.pop(i)
+                        location = "active" if target in active_pokemon else "bench"
+                        if target in active_pokemon:
+                            active_pokemon.remove(target)
+                            active_pokemon.append(evo_card)
+                        else:
+                            bench.remove(target)
+                            bench.append(evo_card)
+                        
+                        evolution_msgs.append(f"{target['name']} -> {evo_card['name']} in {location}")
+                        evolved = True
+                        pokemon_in_play = active_pokemon + bench
+                        found_evolution = True
+                        break
+                if found_evolution:
+                    break
+        if not found_evolution:
+            break
+    
+    if evolved:
+        return True, "; ".join(evolution_msgs)
+    return False, None
+
+def get_evolves_from_chain(card_name):
+    """Find the ultimate basic Pokemon for a given card name."""
+    current_name = card_name.lower().strip()
+    visited = set()
+    
+    while current_name and current_name not in visited:
+        visited.add(current_name)
+        card_info = next((info for key, info in ALL_CARD_DATA.items() if info['card_name'] == current_name), None)
+        
+        if not card_info:
+            break
+            
+        evolve_from = card_info.get('evolve_from', '').strip()
+        if not evolve_from or evolve_from == 'nan':
+            return current_name
+        
+        current_name = evolve_from.lower()
+    
+    return current_name
+
+def try_switch_legendary_beast(hand, active_pokemon, bench, turn):
+    """Try to get a legendary beast into the active position."""
+    if any(is_legendary_beast_ex(p) for p in active_pokemon):
+        return False, None
+    
+    # Check if we have a beast on bench
+    beast_on_bench = next((p for p in bench if is_legendary_beast_ex(p)), None)
+    if beast_on_bench:
+        # For simplicity, just force switch on turn 2+
+        if turn >= 2:
+            current_active = active_pokemon.pop(0) if active_pokemon else None
+            active_pokemon.append(beast_on_bench)
+            bench.remove(beast_on_bench)
+            if current_active:
+                bench.append(current_active)
+            switch_msg = f"switched {beast_on_bench['name']} to active"
+            if current_active:
+                switch_msg += f" (moved {current_active['name']} to bench)"
+            return True, switch_msg
+    
+    return False, None
+
+def legendary_beast_end_turn_draw(deck, active_pokemon):
+    """Draw 1 card if legendary beast is active."""
+    if active_pokemon and is_legendary_beast_ex(active_pokemon[0]):
+        if deck:
+            return [deck.pop(0)]
+    return []
+
+# =============================================================================
+# Simulation
+# =============================================================================
+
+def ensure_guaranteed_basic_top5(deck):
+    """Ensures at least one basic Pokemon is in the top 5 cards."""
+    opener = deck[:5]
+    if any(is_basic(c) for c in opener):
+        return deck
+    
+    for i in range(5, len(deck)):
+        if is_basic(deck[i]):
+            j = random.randrange(5)
+            deck[i], deck[j] = deck[j], deck[i]
+            return deck
+    
+    return deck
+
+def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=6, log_details=False):
+    """Simulate one game with detailed logging."""
+    deck = full_deck[:]
+    random.shuffle(deck)
+    deck = ensure_guaranteed_basic_top5(deck)
+    
+    hand = deck[:5]
+    deck = deck[5:]
+    
+    active_pokemon = []
+    bench = []
+    log = []
+    
+    if log_details:
+        log.append("=== GAME START ===")
+        log.append(f"Opening hand: {[c['name'] for c in hand]}")
+    
+    # Place initial basics
+    placed = place_basic_pokemon(hand, active_pokemon, bench)
+    if log_details and placed:
+        for location, name in placed:
+            log.append(f"Placed {name} in {location}")
+    
+    # Track cards for bricking analysis
+    cards_seen = set(c['name'] for c in hand + active_pokemon + bench)
+    
+    # Cards drawn at end of turn (can't be used until next turn)
+    cards_drawn_at_end = []
+    for turn in range(1, max_turns + 1):
+        if cards_drawn_at_end:
+            hand.extend(cards_drawn_at_end)
+            if log_details:
+                log.append(f"Added end-of-turn cards: {[c['name'] for c in cards_drawn_at_end]}")
+                log.append(f"Hand after adding end-of-turn cards: {[c['name'] for c in hand]}")
+            cards_drawn_at_end.clear()
+        
+        if log_details:
+            log.append(f"\n--- TURN {turn} ---")
+            log.append(f"Hand: {[c['name'] for c in hand]}")
+            log.append(f"Active: {[c['name'] for c in active_pokemon]}")
+            log.append(f"Bench: {[c['name'] for c in bench]}")
+            
+        supporter_used = [False]
+
+        # Draw for turn (except turn 1)
+        if turn > 1:
+            hand_size_before = len(hand)
+            drawn = draw_from_deck(deck, hand, 1)
+            if log_details and drawn > 0:
+                drawn_card = hand[hand_size_before]
+                log.append(f"Drew card: {drawn_card['name']}")
+        
+        # Play basics, supporters, etc.
+        while True:
+            action_taken = False
+            
+            # Play supporter (prioritizes Professor's Research)
+            played_supporter, supporter_msg = try_play_supporter(hand, deck, supporter_used)
+            if played_supporter:
+                action_taken = True
+                if log_details:
+                    log.append(f"Played supporter: {supporter_msg}")
+            
+            # Place any new basics
+            placed = place_basic_pokemon(hand, active_pokemon, bench)
+            if placed:
+                action_taken = True
+                if log_details:
+                    for location, name in placed:
+                        log.append(f"Placed {name} in {location}")
+            cards_seen.update(c['name'] for c in active_pokemon + bench)
+            
+            # Play Poke Balls
+            played_pokeball, pokeball_msg = try_play_pokeball(hand, deck)
+            if played_pokeball:
+                action_taken = True
+                if log_details:
+                    log.append(f"Played Poké Ball: {pokeball_msg}")
+                cards_seen.update(c['name'] for c in hand)
+            
+            # Try evolutions (evolution restricted to turn 2+)
+            evolved, evolution_msg = try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn)
+            if evolved:
+                action_taken = True
+                if log_details:
+                    log.append(f"Evolution: {evolution_msg}")
+                cards_seen.update(c['name'] for c in active_pokemon + bench)
+            
+            # Try to switch legendary beast to active
+            switched, switch_msg = try_switch_legendary_beast(hand, active_pokemon, bench, turn)
+            if switched:
+                action_taken = True
+                if log_details:
+                    log.append(f"Switch: {switch_msg}")
+
+            if not action_taken:
+                break
+        
+        if log_details and turn < 2 and any(is_stage1(c) or is_stage2(c) for c in hand):
+            evos_in_hand = [c['name'] for c in hand if is_stage1(c) or is_stage2(c)]
+            log.append(f"Evolution cards in hand (can't use until turn 2): {evos_in_hand}")
+        
+        # End of turn: Legendary beast draw (can't use until next turn)
+        beast_draw = legendary_beast_end_turn_draw(deck, active_pokemon)
+        if beast_draw:
+            cards_drawn_at_end.extend(beast_draw)
+            if log_details:
+                log.append(f"Legendary beast end-turn draw: {beast_draw[0]['name']} (available next turn)")
+    
+    # Check for bricking
+    all_pokemon_in_play = active_pokemon + bench
+    has_main_attacker = any(is_main_attacker(p, precomputed_attackers) for p in all_pokemon_in_play)
+    
+    # Check if key cards were accessible
+    key_cards = ['professor\'s research']
+    key_basics = [c['name'] for c in full_deck if is_basic(c) and is_important(c)]
+    
+    from collections import Counter
+    deck_counts = Counter(card['name'] for card in full_deck if card['name'] in key_cards or card['name'] in key_basics)
+    seen_counts = Counter(name for name in cards_seen if name in deck_counts)
+    key_cards_stuck = [name for name, total in deck_counts.items() if seen_counts.get(name, 0) == 0]
+
+    # Diagnostics: show position of undrawn key cards in the remaining deck
+    remaining_deck = [c['name'] for c in deck]
+    key_positions = {}
+    for key in key_cards + key_basics:
+        if key in remaining_deck:
+            key_positions[key] = remaining_deck.index(key)
+
+    # New NOT a BRICK condition: deck size < 5 by end of 5 turns
+    not_brick_deck_small = len(deck) < 5
+
+    brick_no_attacker = not has_main_attacker
+    brick_key_stuck = len(key_cards_stuck) > 0
+
+    # If deck size < 5, override brick status
+    is_brick = (brick_no_attacker or brick_key_stuck) and not not_brick_deck_small
+
+    if log_details:
+        log.append(f"\n--- FINAL STATE ---")
+        log.append(f"Active: {[c['name'] for c in active_pokemon]}")
+        log.append(f"Bench: {[c['name'] for c in bench]}")
+        log.append(f"Hand: {[c['name'] for c in hand]}")
+        log.append(f"Main attackers in play: {[c['name'] for c in all_pokemon_in_play if is_main_attacker(c, precomputed_attackers)]}")
+        log.append(f"Cards not seen: {key_cards_stuck}")
+        log.append(f"RESULT: {'BRICK' if is_brick else 'OK'}")
+        if brick_no_attacker and not not_brick_deck_small:
+            log.append("  - No main attacker")
+        if brick_key_stuck and not not_brick_deck_small:
+            log.append(f"  - Key cards stuck: {key_cards_stuck}")
+        if not_brick_deck_small:
+            log.append(f"Deck size < 5, NOT a BRICK")
+        log.append(f"Remaining deck: {remaining_deck}")
+        log.append(f"Key card positions: {key_positions}")
+        for key, pos in key_positions.items():
+            if pos >= len(remaining_deck) - 5:
+                log.append(f"Key card '{key}' is in the bottom 5 cards (position {pos})")
+
+    return is_brick, brick_no_attacker, brick_key_stuck, log
+
+def simulate_brick_rate_with_examples(full_deck, precomputed_attackers, trials=1000, show_examples=5, maxturns=5):
+    """Run multiple simulations and show detailed examples of bricked games."""
+    total_bricks = 0
+    attacker_bricks = 0
+    key_card_bricks = 0
+    examples_shown = 0
+    
+    for i in range(trials):
+        # First run without logging to check if it's a brick
+        is_brick_check, _, _, _ = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=False, max_turns=maxturns)
+
+        # If it's a brick and we want to show examples, run again with logging
+        if is_brick_check and examples_shown < show_examples:
+            is_brick, brick_attacker, brick_key, log = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=True, max_turns=maxturns)
+        else:
+            is_brick, brick_attacker, brick_key, log = simulate_one_trial_with_logging(full_deck, precomputed_attackers, log_details=False, max_turns=maxturns)
+
+        if is_brick:
+            total_bricks += 1
+            if brick_attacker:
+                attacker_bricks += 1
+            if brick_key:
+                key_card_bricks += 1
+            
+            if examples_shown < show_examples and log:  # Only show if we have log data
+                print(f"\n{'='*50}")
+                print(f"BRICKED GAME EXAMPLE #{examples_shown + 1}")
+                print('='*50)
+                for line in log:
+                    print(line)
+                examples_shown += 1
+    
+    return total_bricks, attacker_bricks, key_card_bricks, trials
+
+# =============================================================================
+# Main
+# =============================================================================
+
+def get_main_attackers_and_evolution_methods(full_deck):
+    """
+    Correctly identifies all potential main attackers and their evolution methods.
+    """
+    main_attackers = set()
+    evolution_methods = {}
+    has_rare_candy = any(is_rare_candy(c) for c in full_deck)
+    stage_order = {'basic': 0, 'stage1': 1, 'stage2': 2}
+    
+    # Correctly map each evolution line to its highest stage card
+    final_evos = {}
+    
+    # First, group all cards by their basic form, ensuring only Pokémon are processed
+    evolution_lines = {}
+    for card in full_deck:
+        if card['type'] == 'pokemon':
+            basic_name = get_evolves_from_chain(card.get('evolves_from', '')) if card.get('evolves_from', '') else card['name']
+            if basic_name not in evolution_lines:
+                evolution_lines[basic_name] = []
+            evolution_lines[basic_name].append(card)
+
+    # Then, find the highest stage card for each line
+    for basic_name, cards in evolution_lines.items():
+        highest_stage_card = None
+        for card in cards:
+            # Safely get the stage order, defaulting to -1 for non-valid stages
+            current_stage_order = stage_order.get(card.get('stage'), -1)
+            highest_stage_order = stage_order.get(highest_stage_card.get('stage'), -1) if highest_stage_card else -1
+
+            if highest_stage_card is None or current_stage_order > highest_stage_order:
+                highest_stage_card = card
+        
+        if highest_stage_card:
+            final_evos[basic_name] = highest_stage_card
+
+    # Collect all candidates for each priority level
+    stage2_candidates = []
+    stage1_ex_candidates = []
+    basic_ex_candidates = []
+    
+    for final_card in final_evos.values():
+        name = final_card['name']
+        if name == "eevee ex":
+            continue
+        if is_stage2(final_card):
+            stage2_candidates.append(name)
+            evolution_methods[name] = 'Stage 2 (via Rare Candy)' if has_rare_candy else 'Stage 2'
+        elif is_stage1(final_card) and final_card['ex']:
+            stage1_ex_candidates.append(name)
+            evolution_methods[name] = 'Stage 1 ex'
+        elif is_basic(final_card) and final_card['ex']:
+            basic_ex_candidates.append(name)
+            evolution_methods[name] = 'Basic ex'
+    
+    # Add standalone basics that are not part of an evolution line
+    standalone_basic_candidates = []
+    for card in full_deck:
+        # Check if the card is a standalone basic that isn't a final evolution of a larger line
+        if is_basic(card) and card['name'] not in final_evos and card['type'] == 'pokemon':
+            standalone_basic_candidates.append(card['name'])
+            evolution_methods[card['name']] = 'Basic (standalone)'
+            
+    standalone_stage_1_candidates = []
+    for card in full_deck:
+        if is_stage1(card) and card['name'] in final_evos and card['type'] == 'pokemon':
+            standalone_stage_1_candidates.append(card['name'])
+            evolution_methods[card['name']] = 'Stage 1 (standalone)'
+    # Combine all candidate lists into the final set of main attackers
+    main_attackers.update(stage2_candidates)
+    main_attackers.update(stage1_ex_candidates)
+    main_attackers.update(basic_ex_candidates)
+    main_attackers.update(standalone_basic_candidates)
+    main_attackers.update(standalone_stage_1_candidates)
+    
+    return list(main_attackers), evolution_methods
+
+def main():
+    """Main function to load data, parse deck, and run analysis."""
+    deck_text = """
+2 Charmander A1 33
+1 Charizard A1 35
+1 Charizard ex A1 36
+2 Moltres ex A1 47
+1 Farfetch'd A1 198
+
+2 Professor's Research P-A 7
+1 Sabrina A1 225
+1 Leaf A1a 68
+1 Dawn A2 154
+2 Poké Ball P-A 5
+2 Rare Candy A3 144
+1 Potion P-A 1
+1 X Speed P-A 2
+1 Red Card P-A 6
+1 Giant Cape A2 147
+"""
+    
+    if not load_card_data():
+        print("Failed to load card data.")
+        return
+    
+    parsed_deck = parse_decklist(deck_text)
+    if not parsed_deck:
+        print("Failed to parse deck.")
+        return
+    
+    print(f"Parsed deck size: {len(parsed_deck)}")
+    card_counts = Counter(card['name'] for card in parsed_deck)
+    print("Deck composition:")
+    for card, count in card_counts.items():
+        print(f"  - {count} {card}")
+    
+    print("\nCard details:")
+    unique_cards = {}
+    for card in parsed_deck:
+        name = card['name']
+        if name not in unique_cards:
+            unique_cards[name] = card
+    
+    for name, card in unique_cards.items():
+        evolve_info = f", evolves_from={card['evolve_from']}" if card['evolve_from'] else ""
+        print(f"  - {name}: type={card['type']}, stage={card['stage']}, ex={card['ex']}{evolve_info}")
+
+    # Precompute main attackers and evolution methods BEFORE the simulation
+    main_attackers, evolution_methods = get_main_attackers_and_evolution_methods(parsed_deck)
+    print("\nPrecomputed main attackers and evolution methods:")
+    for attacker in main_attackers:
+        print(f"  - {attacker}: {evolution_methods.get(attacker, 'N/A')}")
+    
+    total_bricks, attacker_bricks, key_card_bricks, trials = simulate_brick_rate_with_examples(
+        parsed_deck, main_attackers, trials=10000, show_examples=1, maxturns=7
+    )
+    
+    print(f"\n--- SIMULATION RESULTS ({trials} trials) ---")
+    print(f"Total brick count: {total_bricks}")
+    print(f"Brick rate: {total_bricks/trials*100:.2f}%")
+    print(f"  - No main attacker bricks: {attacker_bricks}")
+    print(f"  - Key cards stuck bricks: {key_card_bricks}")
+
+if __name__ == "__main__":
+    main()
