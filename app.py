@@ -383,12 +383,11 @@ def main():
     # Load card data
     data = load_card_data("ALL_SETS.csv")
 
-    # Enhanced sidebar
-    with st.sidebar:
-        st.markdown("### ⚙️ Simulation Settings")
-        st.markdown("---")
-        
-        # Number of trials slider with enhanced styling
+    # Simulation settings in main area for mobile/desktop accessibility
+    st.markdown("### ⚙️ Simulation Settings")
+    st.markdown("---")
+    col_trials, col_turns = st.columns(2)
+    with col_trials:
         trials = st.slider(
             "🔄 Number of Trials", 
             min_value=100, 
@@ -397,18 +396,7 @@ def main():
             step=100,
             help="More trials = more accurate results but slower computation"
         )
-        
-        # Progress indicator for trial count
-        trial_quality = "Excellent" if trials >= 2000 else "Good" if trials >= 1000 else "Basic"
-        trial_color = "#10b981" if trials >= 2000 else "#f59e0b" if trials >= 1000 else "#6b7280"
-        
-        st.markdown(f"""
-        <div style="background: {trial_color}20; padding: 0.5rem 1rem; border-radius: 8px; border-left: 3px solid {trial_color}; margin-bottom: 1rem;">
-            <small style="color: {trial_color}; font-weight: 600;">Accuracy Level: {trial_quality}</small>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        # Number of turns slider
+    with col_turns:
         max_turns = st.slider(
             "🎯 Turns to Simulate", 
             min_value=4, 
@@ -416,15 +404,21 @@ def main():
             value=5,
             help="How many turns to simulate before evaluating the hand"
         )
-        
-        # Number of examples
-        show_examples = st.number_input(
-            "📝 Example Hands to Show",
-            min_value=0,
-            max_value=10,
-            value=3 if trials < 500 else 2,
-            help="Shows detailed logs of bricked games for analysis"
-        )
+    trial_quality = "Excellent" if trials >= 2000 else "Good" if trials >= 1000 else "Basic"
+    trial_color = "#10b981" if trials >= 2000 else "#f59e0b" if trials >= 1000 else "#6b7280"
+    st.markdown(f"""
+    <div style="background: {trial_color}20; padding: 0.5rem 1rem; border-radius: 8px; border-left: 3px solid {trial_color}; margin-bottom: 1rem;">
+        <small style="color: {trial_color}; font-weight: 600;">Accuracy Level: {trial_quality}</small>
+    </div>
+    """, unsafe_allow_html=True)
+    show_examples = st.number_input(
+        "📝 Example Hands to Show",
+        min_value=0,
+        max_value=10,
+        value=3 if trials < 500 else 2,
+        help="Shows detailed logs of bricked games for analysis"
+    )
+    # st.info("On mobile, swipe right or tap the hamburger menu to access any sidebar content. All essential controls are now always visible.")
     
     # Main content area with enhanced layout
     col1, col2 = st.columns([1.2, 0.8])

@@ -38,6 +38,10 @@ data.loc[data['card_name'].str.lower().isin(supporter_names), 'card_type'] = 'su
 # Mark tools (leftover trainers that are not supporters)
 data.loc[data['card_type'] == 'trainer', 'card_type'] = 'tool'
 
+#if card_name contains fossil make a type fossil and pokemon stage = basic
+data.loc[data['card_name'].str.contains('Fossil', case=False, na=False), 'card_type'] = 'fossil'
+data.loc[data['card_name'].str.contains('Fossil', case=False, na=False), 'pokemon_stage'] = 'Basic'
+
 print(data['card_type'].value_counts())
 
 data.to_csv("ALL_SETS_CLEANED.csv", index=False)
