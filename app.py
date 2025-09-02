@@ -477,7 +477,7 @@ def main():
             try:
                 parsed_deck = parse_decklist(decklist_input)
             except ValueError as e:
-                st.error(f"Deck parsing error: {e}")
+                st.markdown(f"**Deck parsing error:**\n\n{str(e)}", unsafe_allow_html=True)
                 return
             except Exception as e:
                 st.error(f"Unexpected error: {e}")

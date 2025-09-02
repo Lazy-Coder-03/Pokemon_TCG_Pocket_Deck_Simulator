@@ -92,33 +92,54 @@ def parse_decklist(decklist_text: str):
     """
     parsed_deck = []
     lines = decklist_text.strip().split('\n')
-    
+    invalid_cards = []
+    error_messages = []
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        
         parts = line.split()
         if len(parts) < 2:
             continue
-        
         try:
             count = int(parts[0])
             card_string = " ".join(parts[1:])
         except ValueError:
             continue
-        
         card_info = get_card_info(card_string)
-        if card_info:
-            for _ in range(count):
-                parsed_deck.append({
-                    'name': card_info.get('card_name', ''),
-                    'type': card_info['card_type'],
-                    'stage': card_info['pokemon_stage'],
-                    'ex': card_info['ex'],
-                    'evolve_from': card_info.get('evolve_from', ''),
-                    'rarity': card_info.get('rarity', '')
-                })
+        if not card_info:
+            card_name_guess = " ".join(parts[1:-2]).lower() if len(parts) > 2 else parts[1].lower() if len(parts) > 1 else ''
+            set_code_guess = parts[-2].lower() if len(parts) > 2 else None
+            possible_matches = []
+            for key in ALL_CARD_DATA.keys():
+                if card_name_guess in key[0] and (set_code_guess is None or set_code_guess == key[1]):
+                    suggested = f"{count} {key[0].title()} {key[1].upper()} {key[2]}"
+                    possible_matches.append(suggested)
+            if not possible_matches:
+                for key in ALL_CARD_DATA.keys():
+                    if card_name_guess in key[0]:
+                        suggested = f"{count} {key[0].title()} {key[1].upper()} {key[2]}"
+                        possible_matches.append(suggested)
+            if possible_matches:
+                msg = f"Error: Card '{card_string}' not found. Did you mean:\n" + "\n".join([f"  - {match}" for match in possible_matches])
+                error_messages.append(msg)
+            else:
+                msg = f"Error: Card '{card_string}' not found and no close matches found."
+                error_messages.append(msg)
+            invalid_cards.append(card_string)
+            continue
+        for _ in range(count):
+            parsed_deck.append({
+                'name': card_info.get('card_name', ''),
+                'type': card_info['card_type'],
+                'stage': card_info['pokemon_stage'],
+                'ex': card_info['ex'],
+                'evolve_from': card_info.get('evolve_from', ''),
+                'rarity': card_info.get('rarity', '')
+            })
+    if invalid_cards:
+        error_messages.append(f"Error: The following cards were not found in the database: {invalid_cards}")
+        raise ValueError("\n".join(error_messages))
     if len(parsed_deck) != 20:
         print(f"Warning: Decklist does not contain 20 cards (found {len(parsed_deck)})")
         raise ValueError("Decklist must contain exactly 20 cards.")
@@ -132,7 +153,6 @@ def parse_decklist(decklist_text: str):
             ancestor = get_evolves_from_chain(card.get('evolve_from', '')) if card.get('evolve_from', '') else card['name']
             if ancestor and ancestor not in names_in_deck:
                 print(f"Warning: {card['name']} and Rare Candy are present, but required basic ({ancestor}) for evolution is missing from deck.")
-    
     return parsed_deck
 
 # =============================================================================
