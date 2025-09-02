@@ -339,6 +339,7 @@ def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn, evolved_
                     pokemon_in_play = active_pokemon + bench
                     break
                 else:
+                    location = "active" if target in active_pokemon else "bench"
                     evolution_msgs.append(f"Attempted to evolve {target['name']} with Rare Candy in {location} but failed (just placed or already evolved this turn)")
 
     # Priority 2: Sylveon ex evolution
