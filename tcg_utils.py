@@ -296,23 +296,18 @@ def can_evolve(evo_card, pokemon_in_play):
     
     return any(p.get('name', '') in valid_names for p in pokemon_in_play)
 
-def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
-    """Attempts to evolve Pokemon on the board, prioritizing Rare Candy then Sylveon ex."""
+def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn, evolved_this_turn):
+    """Attempts to evolve Pokemon on the board, prioritizing Rare Candy then Sylveon ex. Prevents evolving the same board space twice in one turn using evolved_this_turn set."""
     # Evolution restriction: can only evolve after turn 2
     if turn < 2:
-        return False, None
+        return False, "Cannot evolve on turn 1"
 
     evolved = False
     pokemon_in_play = active_pokemon + bench
     evolution_msgs = []
+    # evolved_this_turn is now always passed in from the simulation loop
 
-    # Clear 'just_placed' flag for Pokémon that were placed in previous turns
-    for p in bench:
-        if p.get('just_placed', False):
-            p['just_placed'] = False
-    for p in active_pokemon:
-        if p.get('just_placed', False):
-            p['just_placed'] = False
+    # Do NOT clear 'just_placed' flag here; it is handled once per turn in the simulation loop
 
     # Priority 1: Rare Candy evolution
     rare_candy_cards = [c for c in hand if is_rare_candy(c)]
@@ -323,7 +318,8 @@ def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
             evolve_from_basic_name = get_evolves_from_chain(stage2_card['evolve_from'])
             target = next((p for p in pokemon_in_play if p['name'] == evolve_from_basic_name), None)
             if target:
-                if not target.get('just_placed', False):
+                # Prevent evolving if just placed or already evolved this turn
+                if not target.get('just_placed', False) and id(target) not in evolved_this_turn:
                     rare_candy = rare_candy_cards.pop(0)
                     hand.remove(rare_candy)
                     hand.remove(stage2_card)
@@ -332,31 +328,35 @@ def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
                     if target in active_pokemon:
                         active_pokemon.remove(target)
                         active_pokemon.append(stage2_card)
+                        evolved_this_turn.add(id(active_pokemon[-1]))
                     else:
                         bench.remove(target)
                         bench.append(stage2_card)
+                        evolved_this_turn.add(id(bench[-1]))
 
                     evolution_msgs.append(f"{target['name']} -> {stage2_card['name']} with Rare Candy in {location}")
                     evolved = True
                     pokemon_in_play = active_pokemon + bench
                     break
                 else:
-                    evolution_msgs.append(f"Attempted to evolve {target['name']} with Rare Candy in {location} but failed (just placed this turn)")
+                    evolution_msgs.append(f"Attempted to evolve {target['name']} with Rare Candy in {location} but failed (just placed or already evolved this turn)")
 
     # Priority 2: Sylveon ex evolution
     sylveon_ex_card = next((c for c in hand if c['name'] == 'sylveon ex'), None)
     if sylveon_ex_card:
         eevee_target = next((p for p in pokemon_in_play if (p['name'] == 'eevee' or p['name'] == 'eevee ex')), None)
         if eevee_target:
-            if not eevee_target.get('just_placed', False):
+            if not eevee_target.get('just_placed', False) and id(eevee_target) not in evolved_this_turn:
                 hand.remove(sylveon_ex_card)
                 location = "active" if eevee_target in active_pokemon else "bench"
                 if eevee_target in active_pokemon:
                     active_pokemon.remove(eevee_target)
                     active_pokemon.append(sylveon_ex_card)
+                    evolved_this_turn.add(id(active_pokemon[-1]))
                 else:
                     bench.remove(eevee_target)
                     bench.append(sylveon_ex_card)
+                    evolved_this_turn.add(id(bench[-1]))
 
                 evolution_msgs.append(f"{eevee_target['name']} -> {sylveon_ex_card['name']} in {location}")
                 cards_drawn = draw_from_deck(deck, hand, 2)
@@ -366,7 +366,7 @@ def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
                 pokemon_in_play = active_pokemon + bench
             else:
                 location = "active" if eevee_target in active_pokemon else "bench"
-                evolution_msgs.append(f"Attempted to evolve {eevee_target['name']} to Sylveon ex in {location} but failed (just placed this turn)")
+                evolution_msgs.append(f"Attempted to evolve {eevee_target['name']} to Sylveon ex in {location} but failed (just placed or already evolved this turn)")
 
     # Priority 3: Any other regular evolutions
     while True:
@@ -380,25 +380,45 @@ def try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn):
                 evolve_from = card.get('evolve_from', '')
                 valid_names = ['eevee', 'eevee ex'] if evolve_from == 'eevee' else [evolve_from]
                 for target in pokemon_in_play:
-                    if target.get('name', '') in valid_names:
-                        if not target.get('just_placed', False):
-                            evo_card = hand.pop(i)
-                            location = "active" if target in active_pokemon else "bench"
-                            if target in active_pokemon:
-                                active_pokemon.remove(target)
-                                active_pokemon.append(evo_card)
-                            else:
-                                bench.remove(target)
-                                bench.append(evo_card)
-
-                            evolution_msgs.append(f"{target['name']} -> {evo_card['name']} in {location}")
-                            evolved = True
-                            pokemon_in_play = active_pokemon + bench
-                            found_evolution = True
-                            break
+                    # Prevent evolving if just placed or already evolved this turn
+                    if target.get('name', '') in valid_names and not target.get('just_placed', False) and id(target) not in evolved_this_turn:
+                        evo_card = hand.pop(i)
+                        location = "active" if target in active_pokemon else "bench"
+                        if target in active_pokemon:
+                            active_pokemon.remove(target)
+                            active_pokemon.append(evo_card)
+                            evolved_this_turn.add(id(active_pokemon[-1]))
                         else:
-                            location = "active" if target in active_pokemon else "bench"
-                            evolution_msgs.append(f"Attempted to evolve {target['name']} to {card['name']} in {location} but failed (just placed this turn)")
+                            bench.remove(target)
+                            bench.append(evo_card)
+                            evolved_this_turn.add(id(bench[-1]))
+
+                        evolution_msgs.append(f"{target['name']} -> {evo_card['name']} in {location}")
+                        evolved = True
+                        pokemon_in_play = active_pokemon + bench
+                        found_evolution = True
+                        # Shiinotic special evolution rule
+                        if evolved and evo_card['name'] == 'shiinotic' and target['name'] == 'morelull':
+                            # Only log the card drawn and that deck was shuffled
+                            # Search deck for first true Pokémon card
+                            for j, deck_card in enumerate(deck):
+                                if deck_card.get('type', '') == 'pokemon' and deck_card.get('stage', '') in ['basic', 'stage1', 'stage2']:
+                                    if len(hand) < 10:
+                                        found_poke = deck.pop(j)
+                                        hand.append(found_poke)
+                                        evolution_msgs.append(f"Shiinotic ability: drew {found_poke['name']} from deck on evolution")
+                                        evolution_msgs.append(f"Shiinotic ability: drew {found_poke['name']} from deck and shuffled deck.")
+                                    else:
+                                        evolution_msgs.append("Shiinotic ability: hand full, could not draw Pokémon card on evolution")
+                                    break
+                            random.shuffle(deck)
+                            # Only log that deck was shuffled if no card drawn
+                            if not any([msg for msg in evolution_msgs if msg.startswith('Shiinotic ability: drew')]):
+                                evolution_msgs.append("Shiinotic ability: shuffled deck (no card drawn).")
+                        break
+                    elif target.get('name', '') in valid_names:
+                        location = "active" if target in active_pokemon else "bench"
+                        evolution_msgs.append(f"Attempted to evolve {target['name']} to {card['name']} in {location} but failed (just placed or already evolved this turn)")
                 if found_evolution:
                     break
         if not found_evolution:
@@ -448,7 +468,7 @@ def try_switch_legendary_beast(hand, active_pokemon, bench, turn):
     return False, None
 
 def legendary_beast_end_turn_draw(deck, active_pokemon):
-    """Draw 1 card if legendary beast is active."""
+    """Draw 1 card if legendary beast is active.""";
     if active_pokemon and is_legendary_beast_ex(active_pokemon[0]):
         if deck:
             return [deck.pop(0)]
@@ -523,18 +543,43 @@ def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=
             if log_details and drawn > 0:
                 drawn_card = hand[hand_size_before]
                 log.append(f"Drew card: {drawn_card['name']}")
-        
+
+            # Shiinotic ongoing ability: after normal draw, for each Shiinotic in play, draw 1 Pokémon card
+            shiinotics_in_play = [p for p in active_pokemon + bench if p.get('name', '') == 'shiinotic']
+            # Each Shiinotic draws independently
+            for shiinotic in shiinotics_in_play:
+                drew_card = False
+                for j, deck_card in enumerate(deck):
+                    if deck_card.get('type', '') == 'pokemon' and deck_card.get('stage', '') in ['basic', 'stage1', 'stage2']:
+                        if len(hand) < 10:
+                            found_poke = deck.pop(j)
+                            hand.append(found_poke)
+                            drew_card = True
+                            if log_details:
+                                log.append(f"Shiinotic ability: drew {found_poke['name']} from deck and shuffled deck.")
+                        break
+                random.shuffle(deck)
+                if not drew_card and log_details:
+                    log.append("Shiinotic ability: shuffled deck (no card drawn).")
+
+        # At the start of each turn, clear 'just_placed' flag for Pokémon placed in previous turns
+        for p in bench:
+            if p.get('just_placed', False):
+                p['just_placed'] = False
+        for p in active_pokemon:
+            if p.get('just_placed', False):
+                p['just_placed'] = False
+
         # Play basics, supporters, etc.
+        evolved_this_turn = set()
         while True:
             action_taken = False
-            
             # Play supporter (prioritizes Professor's Research)
             played_supporter, supporter_msg = try_play_supporter(hand, deck, supporter_used)
             if played_supporter:
                 action_taken = True
                 if log_details:
                     log.append(f"Played supporter: {supporter_msg}")
-            
             # Place any new basics
             placed = place_basic_pokemon(hand, active_pokemon, bench)
             if placed:
@@ -542,8 +587,10 @@ def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=
                 if log_details:
                     for location, name in placed:
                         log.append(f"Placed {name} in {location}")
-            cards_seen.update(c['name'] for c in active_pokemon + bench)
-            
+                cards_seen.update(c['name'] for c in active_pokemon + bench)
+            # Track actual object references for Pokémon just placed this turn
+            # Only clear 'just_placed' flag at the start of a new turn, not after placing basics
+            # This ensures Pokémon placed this turn retain their flag and cannot evolve until next turn
             # Play Poke Balls
             played_pokeball, pokeball_msg = try_play_pokeball(hand, deck)
             if played_pokeball:
@@ -551,22 +598,19 @@ def simulate_one_trial_with_logging(full_deck, precomputed_attackers, max_turns=
                 if log_details:
                     log.append(f"Played Poké Ball: {pokeball_msg}")
                 cards_seen.update(c['name'] for c in hand)
-            
             # Try evolutions (evolution restricted to turn 2+)
-            evolved, evolution_msg = try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn)
+            evolved, evolution_msg = try_evolve(hand, active_pokemon, bench, deck, supporter_used, turn, evolved_this_turn)
             if evolved:
                 action_taken = True
                 if log_details:
                     log.append(f"Evolution: {evolution_msg}")
                 cards_seen.update(c['name'] for c in active_pokemon + bench)
-            
             # Try to switch legendary beast to active
             switched, switch_msg = try_switch_legendary_beast(hand, active_pokemon, bench, turn)
             if switched:
                 action_taken = True
                 if log_details:
                     log.append(f"Switch: {switch_msg}")
-
             if not action_taken:
                 break
         
@@ -761,25 +805,60 @@ def get_main_attackers_and_evolution_methods(full_deck):
 
 
 
+def test():
+    deck_text = """
+2 Cosmog A3 85
+1 Cosmoem A3 86
+2 Solgaleo ex A3 122
+2 Morelull A3 16
+2 Shiinotic A3a 27
+
+2 Professor's Research P-A 7
+1 Lillie A3 155
+1 Red A2b 71
+1 Cyrus A2 150
+1 Mars A2 155
+1 Sabrina A1 225
+2 Rare Candy A3 144
+2 Poké Ball P-A 5
+"""
+
+    if not load_card_data():
+        print("Failed to load card data.")
+        return
+
+    parsed_deck = parse_decklist(deck_text)
+    if not parsed_deck:
+        print("Failed to parse deck.")
+        return
+
+    main_attackers, _ = get_main_attackers_and_evolution_methods(parsed_deck)
+    print("\n=== RANDOM SIMULATION ===")
+    is_brick, brick_no_attacker, brick_key_stuck, log = simulate_one_trial_with_logging(
+        parsed_deck, main_attackers, log_details=True, max_turns=7
+    )
+    for line in log:
+        print(line)
+
 
 
 def main():
     """Main function to load data, parse deck, and run analysis."""
     deck_text = """
-2 Froakie A1 87
-2 Greninja A1 89
-2 Suicune ex A4a 20
-1 Arceus ex A2a 71
-1 Mantyke A4a 23
+2 Cosmog A3 85
+1 Cosmoem A3 86
+2 Solgaleo ex A3 122
+2 Morelull A3 16
+2 Shiinotic A3a 27
 
-2 Cyrus A2 150
 2 Professor's Research P-A 7
-1 Irida A2a 72
-1 Leaf A1a 68
+1 Lillie A3 155
+1 Red A2b 71
+1 Cyrus A2 150
 1 Mars A2 155
+1 Sabrina A1 225
 2 Rare Candy A3 144
 2 Poké Ball P-A 5
-1 Giant Cape A2 147
 """
     
     if not load_card_data():
@@ -834,4 +913,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    test()
